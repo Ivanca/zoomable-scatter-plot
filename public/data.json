@@ -692,14 +692,6 @@
     "color": "#c71e1d"
   },
   {
-    "name": "Kiribati",
-    "x": "",
-    "y": 0.449909035589355,
-    "categoryy": "",
-    "size": 0.765254094757829,
-    "color": "#00dca6"
-  },
-  {
     "name": "North Korea",
     "x": 0.471776416398444,
     "y": 0.343975443639431,
@@ -780,14 +772,6 @@
     "color": "#c71e1d"
   },
   {
-    "name": "Liechtenstein",
-    "x": "",
-    "y": 0.646897020923828,
-    "categoryy": "",
-    "size": 3.94529210837622,
-    "color": "#00dca6"
-  },
-  {
     "name": "Lithuania",
     "x": 0.376500082803261,
     "y": 0.595683719899232,
@@ -860,14 +844,6 @@
     "color": "#00dca6"
   },
   {
-    "name": "Marshall Islands",
-    "x": "",
-    "y": 0.358853804071648,
-    "categoryy": "",
-    "size": 3.06169323795406,
-    "color": "#fa8c00"
-  },
-  {
     "name": "Mauritania",
     "x": 0.57053816634114,
     "y": 0.357162416638664,
@@ -906,14 +882,6 @@
     "categoryy": "GREEN",
     "size": 3.32461016755783,
     "color": "#00dca6"
-  },
-  {
-    "name": "Monaco",
-    "x": "",
-    "y": 0.747460170235827,
-    "categoryy": "",
-    "size": 0,
-    "color": ""
   },
   {
     "name": "Mongolia",
@@ -962,14 +930,6 @@
     "categoryy": "RED",
     "size": 1.69170542764537,
     "color": "#c71e1d"
-  },
-  {
-    "name": "Nauru",
-    "x": "",
-    "y": 0.488117997362031,
-    "categoryy": "",
-    "size": 5.57413588432697,
-    "color": "#00dca6"
   },
   {
     "name": "Nepal",
@@ -1043,14 +1003,6 @@
     "categoryy": "RED",
     "size": 0.879965499388893,
     "color": "#c71e1d"
-  },
-  {
-    "name": "Palau",
-    "x": "",
-    "y": 0.423944653490986,
-    "categoryy": "",
-    "size": 13.8881173268152,
-    "color": "#00dca6"
   },
   {
     "name": "Panama",
@@ -1158,28 +1110,12 @@
     "color": "#00dca6"
   },
   {
-    "name": "Saint Vincent and the Grenadines",
-    "x": "",
-    "y": 0.476475038417491,
-    "categoryy": "",
-    "size": 2.35096245208338,
-    "color": "#00dca6"
-  },
-  {
     "name": "Samoa",
     "x": 0.487125673344199,
     "y": 0.428495697547221,
     "categoryy": "BLUE",
     "size": 1.52212413389075,
     "color": "#18a1cd"
-  },
-  {
-    "name": "San Marino",
-    "x": "",
-    "y": 0.631015375943487,
-    "categoryy": "",
-    "size": 0,
-    "color": ""
   },
   {
     "name": "Sao Tome and Principe",
@@ -1424,14 +1360,6 @@
     "categoryy": "YELLOW",
     "size": 12.2633540880676,
     "color": "#fa8c00"
-  },
-  {
-    "name": "Tuvalu",
-    "x": "",
-    "y": 0.586165716786722,
-    "categoryy": "",
-    "size": 0.858000838823044,
-    "color": ""
   },
   {
     "name": "Uganda",
