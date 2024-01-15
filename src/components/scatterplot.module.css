@@ -1,6 +1,5 @@
 .scatterplotSquare {
     fill-opacity: .7;
-    stroke-width: .5px;
     stroke: "white";
 
 }
@@ -17,7 +16,6 @@
     opacity: 1;
     stroke: black;
     fill-opacity: 1;
-    stroke-width: 2px;
 }
 
 

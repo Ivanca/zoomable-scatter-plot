@@ -3,9 +3,10 @@ type AxesProps = {
     y: number;
     width: number;
     height: number;
+    strokeWidth: number;
   };
   
-  export const Axes = ({ x, y, width, height }: AxesProps) => {
+  export const Axes = ({ x, y, width, height, strokeWidth }: AxesProps) => {
     return (
       <g>
         {/* vertical and horizontal lines */}
@@ -14,6 +15,7 @@ type AxesProps = {
           x2={width}
           y1={y}
           y2={y}
+          strokeWidth={strokeWidth}
           stroke="#ababab"
           strokeDasharray="2"
         />
@@ -22,6 +24,7 @@ type AxesProps = {
           x2={x}
           y1={0}
           y2={height}
+          strokeWidth={strokeWidth}
           stroke="#ababab"
           strokeDasharray="2"
         />

@@ -15,48 +15,31 @@ export const ScatterPlot = ({ width, height, data }: ScatterplotProps) => {
   const sortedData = data.sort((a, b) => b.size - a.size);
 
   // State
-  const [interactionData, setInteractionData] = useState<InteractionData>();
   const svgRef = useRef<SVGSVGElement>(null);
 
   // Scales
   const xScale = d3.scaleLinear().domain([0.23, 0.69]).range([0, width]);
   const yScale = d3.scaleLinear().domain([0.12, 0.83]).range([height, 0]);
   const sizeScale = d3.scaleSqrt().domain([0, 32]).range([3, 40]);
+  const [zoomedStrokeWidth, setZoomedStrokeWidth] = useState(1);
 
   const zoom = d3.zoom()
-    .scaleExtent([0.5, 32])
+    .scaleExtent([1, 32])
     .on("zoom", (event) => {
       if (!svgRef.current) {
         return;
       }
       const k = height / width;
-      const xAxis = (
-        g: d3GSelection,
-        x: d3.AxisScale<d3.AxisDomain>) => g
-          .attr("transform", `translate(0,${height})`)
-          .call(d3.axisTop(x).ticks(12))
-          .call((g: any) => g.select(".domain").attr("display", "none"));
-
-      const yAxis = (g: d3GSelection, y: any) => g
-        .call(d3.axisRight(y).ticks(12 * k as any))
-        .call((g: any) => g.select(".domain").attr("display", "none"))
-
-      let gDot = d3.select(svgRef.current).select("g");
-      let gx = d3.select(svgRef.current).select("#gx") as d3GSelection;
-      let gy = d3.select(svgRef.current).select("#gy") as d3GSelection;
+      const svg = d3.select(svgRef.current);
+      let gSquares = svg.select("#gSquares") as d3GSelection;
       const transform = event.transform as ZoomTransform;
-      const zx = transform.rescaleX(xScale).interpolate(d3.interpolateRound) as d3.AxisScale<d3.AxisDomain>;
-      const zy = transform.rescaleY(yScale).interpolate(d3.interpolateRound) as d3.AxisScale<d3.AxisDomain>;
-      gDot.attr("transform", transform as any).attr("stroke-width", 5 / transform.k);
-      gx.call(xAxis, zx);
-      gy.call(yAxis, zy);
+      setZoomedStrokeWidth(1 / transform.k);
+      gSquares.attr("transform", transform as any).attr("stroke-width", 5 / transform.k);
     });
-
 
   if (svgRef.current) {
     d3.select(svgRef.current).call(zoom as any);
   }
-
 
   const squares = sortedData.map((d, i) => {
     const size = sizeScale(d.size);
@@ -64,27 +47,15 @@ export const ScatterPlot = ({ width, height, data }: ScatterplotProps) => {
     const xPos = xScale(d.x) - size / 2;
     const yPos = yScale(d.y) - size / 2;
 
-    const isDimmed = interactionData && interactionData.color !== d.color;
-    const className = isDimmed
-      ? styles.scatterplotSquare + " " + styles.dimmed
-      : styles.scatterplotSquare;
+    const className = styles.scatterplotSquare;
 
     return (
-      <g
-        key={i}
-        onMouseMove={() =>
-          setInteractionData({
-            xPos,
-            yPos,
-            ...d,
-          })
-        }
-        onMouseLeave={() => setInteractionData(undefined)}
-      >
+      <g key={i}>
         <rect
           x={xPos}
           y={yPos}
           opacity={1}
+          strokeWidth={zoomedStrokeWidth}
           fill={d.color}
           width={size}
           height={size}
@@ -118,9 +89,6 @@ export const ScatterPlot = ({ width, height, data }: ScatterplotProps) => {
             ? y + size / 2 + 7
             : y;
 
-      const isDimmed = interactionData && interactionData.color !== d.color;
-      const className = isDimmed ? styles.dimmed : "";
-
       const textAnchor =
         d.annotation === "left"
           ? "end"
@@ -129,13 +97,13 @@ export const ScatterPlot = ({ width, height, data }: ScatterplotProps) => {
             : "middle";
 
       return (
-        <g key={i} className={className}>
+        <g key={i}>
           <rect
             x={x - size / 2}
             y={y - size / 2}
             opacity={1}
             fill={"none"}
-            strokeWidth={1}
+            strokeWidth={zoomedStrokeWidth}
             stroke={"black"}
             width={size}
             height={size}
@@ -158,17 +126,19 @@ export const ScatterPlot = ({ width, height, data }: ScatterplotProps) => {
     <div style={{ position: "relative" }}>
       <svg ref={svgRef} width={width} height={height} shapeRendering={"crispEdges"}>
         <g>
+
+          <g id="gSquares">
           <Axes
             x={xScale(0.43)}
             y={yScale(0.41)}
             width={width}
             height={height}
+            strokeWidth={zoomedStrokeWidth}
           />
-          {squares}
-          {annotations}
+            {squares}
+            {annotations}
+          </g>
         </g>
-        <g id="gx"></g>
-        <g id="gy"></g>
       </svg>
       <div
         style={{
