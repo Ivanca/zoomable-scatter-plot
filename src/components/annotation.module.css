@@ -1,0 +1,13 @@
+
+.hoveredLabel {
+    paint-order: stroke;
+    stroke: white;
+    stroke-linecap: butt;
+    stroke-linejoin: miter;
+    font-weight: 500;
+}
+
+.annotationRect {
+    stroke: black;
+    pointer-events: none;
+}

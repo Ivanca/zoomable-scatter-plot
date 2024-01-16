@@ -6,17 +6,13 @@ import styles from "./scatterplot.module.css";
 
 // Import d3 types:
 import { ZoomTransform } from "d3";
-
-// create alias for d3.Selection<SVGGElement, unknown, null, undefined>
-type d3GSelection = d3.Selection<SVGGElement, unknown, null, undefined>;
+import { Annotation } from "./Annotation";
 
 export const ScatterPlot = ({ width, height, data }: ScatterplotProps) => {
 
   // State
   const svgRef = useRef<SVGSVGElement>(null);
   const [hoveredLabel, setHoveredLabel] = useState("");
-  const [xPosHovered, setXPosHovered] = useState(0);
-  const [yPosHovered, setYPosHovered] = useState(0);
   const [transform, setTransform] = useState({ x: 0, y: 0, k: 1 } as ZoomTransform);
 
   // Scales
@@ -26,7 +22,6 @@ export const ScatterPlot = ({ width, height, data }: ScatterplotProps) => {
 
   // Sort the data: bigger squares must appear at the bottom
   const sortedData = data.sort((a, b) => b.size - a.size);
-
 
   useEffect(() => {
     if (!svgRef.current) {
@@ -54,17 +49,13 @@ export const ScatterPlot = ({ width, height, data }: ScatterplotProps) => {
         <rect
           x={xPos}
           y={yPos}
-          opacity={1}
           strokeWidth={1 / transform.k}
           fill={d.color}
           width={size}
           height={size}
           className={className}
-          data-country={d.name}
           onMouseEnter={(event) => {
-            setHoveredLabel(event.currentTarget.dataset.country || "");
-            setXPosHovered(xPos + size + 5);
-            setYPosHovered(yPos + size / 2);
+            setHoveredLabel(d.name || "");
           }}
           onMouseLeave={() => {
             setHoveredLabel("");
@@ -79,67 +70,25 @@ export const ScatterPlot = ({ width, height, data }: ScatterplotProps) => {
   const annotations = sortedData
     .filter((d) => d.annotation || hoveredLabel === d.name)
     .sort((a, b) => a.name === hoveredLabel ? 1 : -1)
-    .map((d, i) => {
-      const size = sizeScale(d.size);
-      const isHovered = hoveredLabel === d.name;
-
-      const x = xScale(d.x); // position of the baricenter of the square
-      const y = yScale(d.y);
-
-      const xText =
-        d.annotation === "left"
-          ? x - size / 2 - 5
-          : d.annotation === "right" || (isHovered && !d.annotation)
-            ? x + size / 2 + 5
-            : x;
-
-      const yText =
-        d.annotation === "top"
-          ? y - size / 2 - 7
-          : d.annotation === "bottom"
-            ? y + size / 2 + 7
-            : y;
-
-      const textAnchor =
-        d.annotation === "left"
-          ? "end"
-          : d.annotation === "right" || (isHovered && !d.annotation)
-            ? "start"
-            : "middle";
-    
-      return (
-        <g key={d.name}>
-          <rect
-            x={x - size / 2}
-            y={y - size / 2}
-            opacity={1}
-            fill={d.color}
-            strokeWidth={1 / transform.k}
-            width={size}
-            height={size}
-            className={styles.annotationRect}
-          />
-          <text
-            x={xText}
-            y={yText}
-            fontSize={14 / transform.k}
-            fontWeight={500}
-            textAnchor={textAnchor} // horizontal alignment
-            dominantBaseline={"middle"} // vertical alignment
-            className={isHovered ? styles.hoveredLabel : ""}
-            strokeWidth={2 / transform.k}
-          >
-            {d.name}
-          </text>
-        </g>
-      );
-    });
+    .map((data, i) => 
+      <Annotation
+        key={i}
+        name={data.name}
+        x={xScale(data.x)}
+        y={yScale(data.y)}
+        size={sizeScale(data.size)}
+        color={data.color}
+        isHovered={hoveredLabel === data.name}
+        annotation={data.annotation}
+        scale={transform.k}
+      />
+    );
 
   return (
     <div className={ styles.container }>
       <svg ref={svgRef} width={width} height={height} shapeRendering={"crispEdges"}>
         <g>
-          <g id="gSquares"
+          <g
             transform={`translate(${transform.x}, ${transform.y}) scale(${transform.k})`}
             strokeWidth={5 / transform.k}>
             <Axes
@@ -154,17 +103,6 @@ export const ScatterPlot = ({ width, height, data }: ScatterplotProps) => {
           </g>
         </g>
       </svg>
-      <div
-        style={{
-          position: "absolute",
-          width,
-          height,
-          top: 0,
-          left: 0,
-          pointerEvents: "none",
-        }}
-      >
-      </div>
     </div>
   );
 };
