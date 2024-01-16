@@ -18,8 +18,8 @@ export const ScatterPlot = ({ width, height, data }: ScatterplotProps) => {
   const svgRef = useRef<SVGSVGElement>(null);
 
   // Scales
-  const xScale = d3.scaleLinear().domain([0.23, 0.69]).range([0, width]);
-  const yScale = d3.scaleLinear().domain([0.12, 0.83]).range([height, 0]);
+  const xScale = d3.scaleLinear().domain([0, 0.9]).range([0, width]);
+  const yScale = d3.scaleLinear().domain([0, 0.85]).range([height, 0]);
   const sizeScale = d3.scaleSqrt().domain([0, 32]).range([3, 40]);
   const [zoomedStrokeWidth, setZoomedStrokeWidth] = useState(1);
 
@@ -60,6 +60,8 @@ export const ScatterPlot = ({ width, height, data }: ScatterplotProps) => {
           width={size}
           height={size}
           className={className}
+          data-country={d.name}
+
         />
       </g>
     );
@@ -123,7 +125,7 @@ export const ScatterPlot = ({ width, height, data }: ScatterplotProps) => {
     });
 
   return (
-    <div style={{ position: "relative" }}>
+    <div className={ styles.container }>
       <svg ref={svgRef} width={width} height={height} shapeRendering={"crispEdges"}>
         <g>
 

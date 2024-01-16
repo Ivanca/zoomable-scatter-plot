@@ -1,14 +1,19 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+}
+
+.container > svg {
+    border: 1px solid #CCC;
+    border-radius: 5px;
+}
+
 .scatterplotSquare {
     fill-opacity: .7;
     stroke: "white";
-
-}
-
-.dimmed {
-    opacity: 0;
-    transition: opacity;
-    transition-delay: .5s;
-    transition-duration: .5s;
 }
 
 .scatterplotSquare:hover {

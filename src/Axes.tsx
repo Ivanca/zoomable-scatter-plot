@@ -31,7 +31,7 @@ type AxesProps = {
   
         {/* labels for X axis */}
         <text
-          x={0}
+          x={5}
           y={y - 15}
           fill="#ababab"
           fontSize={16}
@@ -41,7 +41,7 @@ type AxesProps = {
           High Readiness
         </text>
         <text
-          x={0}
+          x={5}
           y={y - 37}
           fill="#ababab"
           fontSize={16}
@@ -52,7 +52,7 @@ type AxesProps = {
         </text>
   
         <text
-          x={0}
+          x={5}
           y={y + 15}
           fill="#ababab"
           fontSize={16}
@@ -62,7 +62,7 @@ type AxesProps = {
           Low Readiness
         </text>
         <text
-          x={0}
+          x={5}
           y={y + 37}
           fill="#ababab"
           fontSize={16}
