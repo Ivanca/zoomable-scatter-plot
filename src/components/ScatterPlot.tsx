@@ -1,12 +1,11 @@
 import { useEffect, useRef, useState } from "react";
 import * as d3 from "d3";
-import { InteractionData, ScatterplotProps } from "../types";
+import { ScatterplotProps } from "../types";
 import { Axes } from "../Axes";
 import styles from "./scatterplot.module.css";
-
-// Import d3 types:
-import { ZoomTransform } from "d3";
+import { PlotSquare } from "./PlotSquare";
 import { Annotation } from "./Annotation";
+import { ZoomTransform } from "d3";
 
 export const ScatterPlot = ({ width, height, data }: ScatterplotProps) => {
 
@@ -36,33 +35,18 @@ export const ScatterPlot = ({ width, height, data }: ScatterplotProps) => {
     d3.select(svgRef.current).call(zoom as any);
   }, [svgRef]);
 
-  const squares = sortedData.map((d, i) => {
-    const size = sizeScale(d.size);
-
-    const xPos = xScale(d.x) - size / 2;
-    const yPos = yScale(d.y) - size / 2;
-
-    const className = styles.scatterplotSquare;
-
-    return (
-      <g key={i}>
-        <rect
-          x={xPos}
-          y={yPos}
-          strokeWidth={1 / transform.k}
-          fill={d.color}
-          width={size}
-          height={size}
-          className={className}
-          onMouseEnter={(event) => {
-            setHoveredLabel(d.name || "");
-          }}
-          onMouseLeave={() => {
-            setHoveredLabel("");
-          }}
-        />
-      </g>
-    );
+  const squares = sortedData.map((data, i) => {
+    return <PlotSquare
+      key={i}
+      name={data.name}
+      color={data.color}
+      size={sizeScale(data.size)}
+      xPos={xScale(data.x)}
+      yPos={yScale(data.y)}
+      scale={transform.k}
+      setHoveredLabel={setHoveredLabel}
+      className={styles.scatterplotSquare}
+    />
   });
 
   // Build the annotations (black rectangle and country name)
