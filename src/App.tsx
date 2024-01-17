@@ -1,6 +1,4 @@
 import React, { useEffect } from 'react';
-import logo from './logo.svg';
-import './App.css';
 import { ScatterPlot } from './components/ScatterPlot';
 import { Logo } from './components/Logo';
 

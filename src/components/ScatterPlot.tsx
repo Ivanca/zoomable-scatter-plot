@@ -2,7 +2,7 @@ import { useEffect, useMemo, useRef, useState } from "react";
 import * as d3 from "d3";
 import { DataItem, ScatterplotProps } from "../types";
 import { Axes } from "../Axes";
-import styles from "./scatterplot.module.css";
+import styles from "./ScatterPlot.module.css";
 import { PlotSquare } from "./PlotSquare";
 import { Annotation } from "./Annotation";
 import { ZoomTransform } from "d3";

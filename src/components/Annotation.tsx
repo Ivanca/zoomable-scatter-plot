@@ -1,6 +1,6 @@
 import React from "react";
 import { AnnotationProps } from "../types";
-import styles from "./annotation.module.css";
+import styles from "./Annotation.module.css";
 
 
 export const Annotation = (
