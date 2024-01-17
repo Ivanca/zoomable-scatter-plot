@@ -54,23 +54,51 @@ export const ScatterPlot = ({ width, height, data }: ScatterplotProps) => {
   const annotations = sortedData
     .filter((d) => d.annotation || hoveredLabel === d.name)
     .sort((a, b) => a.name === hoveredLabel ? 1 : -1)
-    .map((data, i) => 
-      <Annotation
-        key={i}
-        name={data.name}
-        x={xScale(data.x)}
-        y={yScale(data.y)}
-        size={sizeScale(data.size)}
-        color={data.color}
-        isHovered={hoveredLabel === data.name}
-        annotation={data.annotation}
+    .map(({name, x, y, size, annotation, color}, i) => {
+      const isHovered = hoveredLabel === name;
+      const newColor = isHovered ? DARKER[color as keyof typeof DARKER] : color;
+      return <Annotation
+        key={name}
+        name={name}
+        x={xScale(x)}
+        y={yScale(y)}
+        size={sizeScale(size)}
+        color={newColor}
+        isHovered={isHovered}
+        annotation={annotation}
         scale={transform.k}
       />
-    );
+    });
+  
+  const hovered = sortedData.find((d) => d.name === hoveredLabel);
+  let cityAnnotations = null;
+  if (hovered) {
+    const cities = hovered.cities;
+    cityAnnotations = cities
+      .sort((a, b) => b.size - a.size)
+      .map(({name, size, x, y}, i) => {
+        const newSize = sizeScale(hovered.size * size) / 5;
+        let xPos = xScale(hovered.x) - sizeScale(hovered.size) / 2;
+        let yPos = yScale(hovered.y) + sizeScale(hovered.size) / 2;
+        xPos += x * (sizeScale(hovered.size) - newSize * 2) + newSize;
+        yPos -= y * (sizeScale(hovered.size) - newSize * 2) + newSize;
+        return <Annotation
+          key={name}
+          name={name + ": " + size * 100 + "%"}
+          x={xPos}
+          y={yPos}
+          size={newSize}
+          isCity={true}
+          color={BRIGHTER[hovered.color as keyof typeof BRIGHTER]}
+          annotation={i % 2 ? "center-top" : "center-bottom"}
+          scale={transform.k}
+        />
+      });
+  }
 
   return (
     <div className={ styles.container }>
-      <svg ref={svgRef} width={width} height={height} shapeRendering={"crispEdges"}>
+    <svg ref={svgRef} width={window.innerWidth} height={window.innerHeight} shapeRendering={"crispEdges"}>
         <g>
           <g
             transform={`translate(${transform.x}, ${transform.y}) scale(${transform.k})`}
@@ -84,6 +112,7 @@ export const ScatterPlot = ({ width, height, data }: ScatterplotProps) => {
             />
             {squares}
             {annotations}
+            {cityAnnotations}
           </g>
         </g>
       </svg>

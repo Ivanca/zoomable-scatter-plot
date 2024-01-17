@@ -18,9 +18,7 @@
 
 .scatterplotSquare:hover {
     cursor: pointer;
-    opacity: 1;
     stroke: black;
-    fill-opacity: 1;
 }
 
 

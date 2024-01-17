@@ -5,7 +5,8 @@ export type DataItem = {
   size: number; // CO2 emission
   color: string;
   categoryy: "RED" | "GREEN" | "YELLOW" | "BLUE";
-  annotation?: "top" | "right" | "left" | "bottom";
+  annotation?: "top" | "right" | "left" | "bottom" | "center-top" | "center-bottom";
+  cities: {name: string, x: number, y: number, size: number}[];
 };
 
 export type AnnotationProps = {
@@ -13,10 +14,11 @@ export type AnnotationProps = {
   y: number;
   color: string;
   name: string;
-  isHovered: boolean;
+  isHovered?: boolean;
   size: number;
   annotation: DataItem["annotation"];
   scale: number;
+  isCity?: boolean;
 }
 
 export type PlotSquareProps = {
@@ -27,7 +29,7 @@ export type PlotSquareProps = {
   scale: number;
   color: string;
   className: string;
-  setHoveredLabel: (label: string) => void;
+  setHoveredLabel?: (label: string) => void;
 }
 
 export type ScatterplotProps = {

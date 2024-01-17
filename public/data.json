@@ -6,11 +6,26 @@
     "categoryy": "RED",
     "size": 0.159824372036919,
     "color": "#c71e1d",
-    "byCity": {
-      "Bagdad": 0.3,
-      "Teheran": 0.4,
-      "Delhi": 0.3
-    }
+    "cities": [
+      {
+        "name": "Bagdad",
+        "size": 0.3,
+        "x": 0.3,
+        "y": 0.5
+      },
+      {
+        "name": "Teheran",
+        "size": 0.4,
+        "x": 0.6,
+        "y": 0.4
+      },
+      {
+        "name": "Delhi",
+        "size": 0.4,
+        "x": 0.3,
+        "y": 0.9
+      }
+    ]
   },
   {
     "name": "Albania",
@@ -19,11 +34,26 @@
     "categoryy": "GREEN",
     "size": 1.69224831964856,
     "color": "#00dca6",
-    "byCity": {
-      "Bagdad": 0.3,
-      "Teheran": 0.4,
-      "Delhi": 0.3
-    }
+    "cities": [
+      {
+        "name": "Bagdad",
+        "size": 0.3,
+        "x": 0.3,
+        "y": 0.5
+      },
+      {
+        "name": "Teheran",
+        "size": 0.4,
+        "x": 0.6,
+        "y": 0.4
+      },
+      {
+        "name": "Delhi",
+        "size": 0.4,
+        "x": 0.3,
+        "y": 0.9
+      }
+    ]
   },
   {
     "name": "Algeria",
@@ -32,11 +62,26 @@
     "categoryy": "YELLOW",
     "size": 3.9776504588966,
     "color": "#fa8c00",
-    "byCity": {
-      "Bagdad": 0.3,
-      "Teheran": 0.4,
-      "Delhi": 0.3
-    }
+    "cities": [
+      {
+        "name": "Bagdad",
+        "size": 0.3,
+        "x": 0.3,
+        "y": 0.5
+      },
+      {
+        "name": "Teheran",
+        "size": 0.4,
+        "x": 0.6,
+        "y": 0.4
+      },
+      {
+        "name": "Delhi",
+        "size": 0.4,
+        "x": 0.3,
+        "y": 0.9
+      }
+    ]
   },
   {
     "name": "Angola",
@@ -45,11 +90,26 @@
     "categoryy": "RED",
     "size": 0.792137069457626,
     "color": "#c71e1d",
-    "byCity": {
-      "Bagdad": 0.3,
-      "Teheran": 0.4,
-      "Delhi": 0.3
-    }
+    "cities": [
+      {
+        "name": "Bagdad",
+        "size": 0.3,
+        "x": 0.3,
+        "y": 0.5
+      },
+      {
+        "name": "Teheran",
+        "size": 0.4,
+        "x": 0.6,
+        "y": 0.4
+      },
+      {
+        "name": "Delhi",
+        "size": 0.4,
+        "x": 0.3,
+        "y": 0.9
+      }
+    ]
   },
   {
     "name": "Antigua and Barbuda",
@@ -58,11 +118,26 @@
     "categoryy": "BLUE",
     "size": 5.35447645499165,
     "color": "#18a1cd",
-    "byCity": {
-      "Bagdad": 0.3,
-      "Teheran": 0.4,
-      "Delhi": 0.3
-    }
+    "cities": [
+      {
+        "name": "Bagdad",
+        "size": 0.3,
+        "x": 0.3,
+        "y": 0.5
+      },
+      {
+        "name": "Teheran",
+        "size": 0.4,
+        "x": 0.6,
+        "y": 0.4
+      },
+      {
+        "name": "Delhi",
+        "size": 0.4,
+        "x": 0.3,
+        "y": 0.9
+      }
+    ]
   },
   {
     "name": "Argentina",
@@ -71,11 +146,26 @@
     "categoryy": "YELLOW",
     "size": 3.74065029063396,
     "color": "#fa8c00",
-    "byCity": {
-      "Bagdad": 0.3,
-      "Teheran": 0.4,
-      "Delhi": 0.3
-    }
+    "cities": [
+      {
+        "name": "Bagdad",
+        "size": 0.3,
+        "x": 0.3,
+        "y": 0.5
+      },
+      {
+        "name": "Teheran",
+        "size": 0.4,
+        "x": 0.6,
+        "y": 0.4
+      },
+      {
+        "name": "Delhi",
+        "size": 0.4,
+        "x": 0.3,
+        "y": 0.9
+      }
+    ]
   },
   {
     "name": "Armenia",
@@ -84,11 +174,26 @@
     "categoryy": "GREEN",
     "size": 2.08606067775467,
     "color": "#00dca6",
-    "byCity": {
-      "Bagdad": 0.3,
-      "Teheran": 0.4,
-      "Delhi": 0.3
-    }
+    "cities": [
+      {
+        "name": "Bagdad",
+        "size": 0.3,
+        "x": 0.3,
+        "y": 0.5
+      },
+      {
+        "name": "Teheran",
+        "size": 0.4,
+        "x": 0.6,
+        "y": 0.4
+      },
+      {
+        "name": "Delhi",
+        "size": 0.4,
+        "x": 0.3,
+        "y": 0.9
+      }
+    ]
   },
   {
     "name": "Australia",
@@ -97,11 +202,26 @@
     "categoryy": "GREEN",
     "size": 15.2382671504147,
     "color": "#00dca6",
-    "byCity": {
-      "Bagdad": 0.3,
-      "Teheran": 0.4,
-      "Delhi": 0.3
-    }
+    "cities": [
+      {
+        "name": "Bagdad",
+        "size": 0.3,
+        "x": 0.3,
+        "y": 0.5
+      },
+      {
+        "name": "Teheran",
+        "size": 0.4,
+        "x": 0.6,
+        "y": 0.4
+      },
+      {
+        "name": "Delhi",
+        "size": 0.4,
+        "x": 0.3,
+        "y": 0.9
+      }
+    ]
   },
   {
     "name": "Austria",
@@ -110,11 +230,26 @@
     "categoryy": "GREEN",
     "size": 7.2939842524557,
     "color": "#00dca6",
-    "byCity": {
-      "Bagdad": 0.3,
-      "Teheran": 0.4,
-      "Delhi": 0.3
-    }
+    "cities": [
+      {
+        "name": "Bagdad",
+        "size": 0.3,
+        "x": 0.3,
+        "y": 0.5
+      },
+      {
+        "name": "Teheran",
+        "size": 0.4,
+        "x": 0.6,
+        "y": 0.4
+      },
+      {
+        "name": "Delhi",
+        "size": 0.4,
+        "x": 0.3,
+        "y": 0.9
+      }
+    ]
   },
   {
     "name": "Azerbaijan",
@@ -123,11 +258,26 @@
     "categoryy": "BLUE",
     "size": 3.54239782750878,
     "color": "#18a1cd",
-    "byCity": {
-      "Bagdad": 0.3,
-      "Teheran": 0.4,
-      "Delhi": 0.3
-    }
+    "cities": [
+      {
+        "name": "Bagdad",
+        "size": 0.3,
+        "x": 0.3,
+        "y": 0.5
+      },
+      {
+        "name": "Teheran",
+        "size": 0.4,
+        "x": 0.6,
+        "y": 0.4
+      },
+      {
+        "name": "Delhi",
+        "size": 0.4,
+        "x": 0.3,
+        "y": 0.9
+      }
+    ]
   },
   {
     "name": "Bahamas",
@@ -136,11 +286,26 @@
     "categoryy": "BLUE",
     "size": 7.29166109736758,
     "color": "#18a1cd",
-    "byCity": {
-      "Bagdad": 0.3,
-      "Teheran": 0.4,
-      "Delhi": 0.3
-    }
+    "cities": [
+      {
+        "name": "Bagdad",
+        "size": 0.3,
+        "x": 0.3,
+        "y": 0.5
+      },
+      {
+        "name": "Teheran",
+        "size": 0.4,
+        "x": 0.6,
+        "y": 0.4
+      },
+      {
+        "name": "Delhi",
+        "size": 0.4,
+        "x": 0.3,
+        "y": 0.9
+      }
+    ]
   },
   {
     "name": "Bahrain",
@@ -150,11 +315,26 @@
     "size": 20.2661027913927,
     "color": "#18a1cd",
     "annotation": "right",
-    "byCity": {
-      "Bagdad": 0.3,
-      "Teheran": 0.4,
-      "Delhi": 0.3
-    }
+    "cities": [
+      {
+        "name": "Bagdad",
+        "size": 0.3,
+        "x": 0.3,
+        "y": 0.5
+      },
+      {
+        "name": "Teheran",
+        "size": 0.4,
+        "x": 0.6,
+        "y": 0.4
+      },
+      {
+        "name": "Delhi",
+        "size": 0.4,
+        "x": 0.3,
+        "y": 0.9
+      }
+    ]
   },
   {
     "name": "Bangladesh",
@@ -163,11 +343,26 @@
     "categoryy": "RED",
     "size": 0.556529455394022,
     "color": "#c71e1d",
-    "byCity": {
-      "Bagdad": 0.3,
-      "Teheran": 0.4,
-      "Delhi": 0.3
-    }
+    "cities": [
+      {
+        "name": "Bagdad",
+        "size": 0.3,
+        "x": 0.3,
+        "y": 0.5
+      },
+      {
+        "name": "Teheran",
+        "size": 0.4,
+        "x": 0.6,
+        "y": 0.4
+      },
+      {
+        "name": "Delhi",
+        "size": 0.4,
+        "x": 0.3,
+        "y": 0.9
+      }
+    ]
   },
   {
     "name": "Barbados",
@@ -176,11 +371,26 @@
     "categoryy": "GREEN",
     "size": 4.35508203232516,
     "color": "#00dca6",
-    "byCity": {
-      "Bagdad": 0.3,
-      "Teheran": 0.4,
-      "Delhi": 0.3
-    }
+    "cities": [
+      {
+        "name": "Bagdad",
+        "size": 0.3,
+        "x": 0.3,
+        "y": 0.5
+      },
+      {
+        "name": "Teheran",
+        "size": 0.4,
+        "x": 0.6,
+        "y": 0.4
+      },
+      {
+        "name": "Delhi",
+        "size": 0.4,
+        "x": 0.3,
+        "y": 0.9
+      }
+    ]
   },
   {
     "name": "Belarus",
@@ -189,11 +399,26 @@
     "categoryy": "GREEN",
     "size": 6.12223776544422,
     "color": "#00dca6",
-    "byCity": {
-      "Bagdad": 0.3,
-      "Teheran": 0.4,
-      "Delhi": 0.3
-    }
+    "cities": [
+      {
+        "name": "Bagdad",
+        "size": 0.3,
+        "x": 0.3,
+        "y": 0.5
+      },
+      {
+        "name": "Teheran",
+        "size": 0.4,
+        "x": 0.6,
+        "y": 0.4
+      },
+      {
+        "name": "Delhi",
+        "size": 0.4,
+        "x": 0.3,
+        "y": 0.9
+      }
+    ]
   },
   {
     "name": "Belgium",
@@ -202,11 +427,26 @@
     "categoryy": "GREEN",
     "size": 8.09558395403513,
     "color": "#00dca6",
-    "byCity": {
-      "Bagdad": 0.3,
-      "Teheran": 0.4,
-      "Delhi": 0.3
-    }
+    "cities": [
+      {
+        "name": "Bagdad",
+        "size": 0.3,
+        "x": 0.3,
+        "y": 0.5
+      },
+      {
+        "name": "Teheran",
+        "size": 0.4,
+        "x": 0.6,
+        "y": 0.4
+      },
+      {
+        "name": "Delhi",
+        "size": 0.4,
+        "x": 0.3,
+        "y": 0.9
+      }
+    ]
   },
   {
     "name": "Belize",
@@ -215,11 +455,26 @@
     "categoryy": "RED",
     "size": 1.63955000933746,
     "color": "#c71e1d",
-    "byCity": {
-      "Bagdad": 0.3,
-      "Teheran": 0.4,
-      "Delhi": 0.3
-    }
+    "cities": [
+      {
+        "name": "Bagdad",
+        "size": 0.3,
+        "x": 0.3,
+        "y": 0.5
+      },
+      {
+        "name": "Teheran",
+        "size": 0.4,
+        "x": 0.6,
+        "y": 0.4
+      },
+      {
+        "name": "Delhi",
+        "size": 0.4,
+        "x": 0.3,
+        "y": 0.9
+      }
+    ]
   },
   {
     "name": "Benin",
@@ -228,11 +483,26 @@
     "categoryy": "RED",
     "size": 0.618583745834187,
     "color": "#c71e1d",
-    "byCity": {
-      "Bagdad": 0.3,
-      "Teheran": 0.4,
-      "Delhi": 0.3
-    }
+    "cities": [
+      {
+        "name": "Bagdad",
+        "size": 0.3,
+        "x": 0.3,
+        "y": 0.5
+      },
+      {
+        "name": "Teheran",
+        "size": 0.4,
+        "x": 0.6,
+        "y": 0.4
+      },
+      {
+        "name": "Delhi",
+        "size": 0.4,
+        "x": 0.3,
+        "y": 0.9
+      }
+    ]
   },
   {
     "name": "Bhutan",
@@ -241,11 +511,26 @@
     "categoryy": "BLUE",
     "size": 1.37597720898904,
     "color": "#18a1cd",
-    "byCity": {
-      "Bagdad": 0.3,
-      "Teheran": 0.4,
-      "Delhi": 0.3
-    }
+    "cities": [
+      {
+        "name": "Bagdad",
+        "size": 0.3,
+        "x": 0.3,
+        "y": 0.5
+      },
+      {
+        "name": "Teheran",
+        "size": 0.4,
+        "x": 0.6,
+        "y": 0.4
+      },
+      {
+        "name": "Delhi",
+        "size": 0.4,
+        "x": 0.3,
+        "y": 0.9
+      }
+    ]
   },
   {
     "name": "Bolivia",
@@ -254,11 +539,26 @@
     "categoryy": "RED",
     "size": 1.94039800503704,
     "color": "#c71e1d",
-    "byCity": {
-      "Bagdad": 0.3,
-      "Teheran": 0.4,
-      "Delhi": 0.3
-    }
+    "cities": [
+      {
+        "name": "Bagdad",
+        "size": 0.3,
+        "x": 0.3,
+        "y": 0.5
+      },
+      {
+        "name": "Teheran",
+        "size": 0.4,
+        "x": 0.6,
+        "y": 0.4
+      },
+      {
+        "name": "Delhi",
+        "size": 0.4,
+        "x": 0.3,
+        "y": 0.9
+      }
+    ]
   },
   {
     "name": "Bosnia and Herzegovina",
@@ -267,11 +567,26 @@
     "categoryy": "YELLOW",
     "size": 6.38291804321729,
     "color": "#fa8c00",
-    "byCity": {
-      "Bagdad": 0.3,
-      "Teheran": 0.4,
-      "Delhi": 0.3
-    }
+    "cities": [
+      {
+        "name": "Bagdad",
+        "size": 0.3,
+        "x": 0.3,
+        "y": 0.5
+      },
+      {
+        "name": "Teheran",
+        "size": 0.4,
+        "x": 0.6,
+        "y": 0.4
+      },
+      {
+        "name": "Delhi",
+        "size": 0.4,
+        "x": 0.3,
+        "y": 0.9
+      }
+    ]
   },
   {
     "name": "Botswana",
@@ -280,11 +595,26 @@
     "categoryy": "BLUE",
     "size": 3.14710707065972,
     "color": "#18a1cd",
-    "byCity": {
-      "Bagdad": 0.3,
-      "Teheran": 0.4,
-      "Delhi": 0.3
-    }
+    "cities": [
+      {
+        "name": "Bagdad",
+        "size": 0.3,
+        "x": 0.3,
+        "y": 0.5
+      },
+      {
+        "name": "Teheran",
+        "size": 0.4,
+        "x": 0.6,
+        "y": 0.4
+      },
+      {
+        "name": "Delhi",
+        "size": 0.4,
+        "x": 0.3,
+        "y": 0.9
+      }
+    ]
   },
   {
     "name": "Brazil",
@@ -293,11 +623,26 @@
     "categoryy": "YELLOW",
     "size": 2.05781083913756,
     "color": "#fa8c00",
-    "byCity": {
-      "Bagdad": 0.3,
-      "Teheran": 0.4,
-      "Delhi": 0.3
-    }
+    "cities": [
+      {
+        "name": "Bagdad",
+        "size": 0.3,
+        "x": 0.3,
+        "y": 0.5
+      },
+      {
+        "name": "Teheran",
+        "size": 0.4,
+        "x": 0.6,
+        "y": 0.4
+      },
+      {
+        "name": "Delhi",
+        "size": 0.4,
+        "x": 0.3,
+        "y": 0.9
+      }
+    ]
   },
   {
     "name": "Brunei Darussalam",
@@ -306,11 +651,26 @@
     "categoryy": "GREEN",
     "size": 16.1321585500862,
     "color": "#00dca6",
-    "byCity": {
-      "Bagdad": 0.3,
-      "Teheran": 0.4,
-      "Delhi": 0.3
-    }
+    "cities": [
+      {
+        "name": "Bagdad",
+        "size": 0.3,
+        "x": 0.3,
+        "y": 0.5
+      },
+      {
+        "name": "Teheran",
+        "size": 0.4,
+        "x": 0.6,
+        "y": 0.4
+      },
+      {
+        "name": "Delhi",
+        "size": 0.4,
+        "x": 0.3,
+        "y": 0.9
+      }
+    ]
   },
   {
     "name": "Bulgaria",
@@ -319,11 +679,26 @@
     "categoryy": "GREEN",
     "size": 5.61085727989368,
     "color": "#00dca6",
-    "byCity": {
-      "Bagdad": 0.3,
-      "Teheran": 0.4,
-      "Delhi": 0.3
-    }
+    "cities": [
+      {
+        "name": "Bagdad",
+        "size": 0.3,
+        "x": 0.3,
+        "y": 0.5
+      },
+      {
+        "name": "Teheran",
+        "size": 0.4,
+        "x": 0.6,
+        "y": 0.4
+      },
+      {
+        "name": "Delhi",
+        "size": 0.4,
+        "x": 0.3,
+        "y": 0.9
+      }
+    ]
   },
   {
     "name": "Burkina Faso",
@@ -332,11 +707,26 @@
     "categoryy": "RED",
     "size": 0.246046245966625,
     "color": "#c71e1d",
-    "byCity": {
-      "Bagdad": 0.3,
-      "Teheran": 0.4,
-      "Delhi": 0.3
-    }
+    "cities": [
+      {
+        "name": "Bagdad",
+        "size": 0.3,
+        "x": 0.3,
+        "y": 0.5
+      },
+      {
+        "name": "Teheran",
+        "size": 0.4,
+        "x": 0.6,
+        "y": 0.4
+      },
+      {
+        "name": "Delhi",
+        "size": 0.4,
+        "x": 0.3,
+        "y": 0.9
+      }
+    ]
   },
   {
     "name": "Burundi",
@@ -345,11 +735,26 @@
     "categoryy": "RED",
     "size": 0.062442671221937,
     "color": "#c71e1d",
-    "byCity": {
-      "Bagdad": 0.3,
-      "Teheran": 0.4,
-      "Delhi": 0.3
-    }
+    "cities": [
+      {
+        "name": "Bagdad",
+        "size": 0.3,
+        "x": 0.3,
+        "y": 0.5
+      },
+      {
+        "name": "Teheran",
+        "size": 0.4,
+        "x": 0.6,
+        "y": 0.4
+      },
+      {
+        "name": "Delhi",
+        "size": 0.4,
+        "x": 0.3,
+        "y": 0.9
+      }
+    ]
   },
   {
     "name": "Cambodia",
@@ -358,11 +763,26 @@
     "categoryy": "RED",
     "size": 0.981406549971231,
     "color": "#c71e1d",
-    "byCity": {
-      "Bagdad": 0.3,
-      "Teheran": 0.4,
-      "Delhi": 0.3
-    }
+    "cities": [
+      {
+        "name": "Bagdad",
+        "size": 0.3,
+        "x": 0.3,
+        "y": 0.5
+      },
+      {
+        "name": "Teheran",
+        "size": 0.4,
+        "x": 0.6,
+        "y": 0.4
+      },
+      {
+        "name": "Delhi",
+        "size": 0.4,
+        "x": 0.3,
+        "y": 0.9
+      }
+    ]
   },
   {
     "name": "Cameroon",
@@ -371,11 +791,26 @@
     "categoryy": "RED",
     "size": 0.364424921654471,
     "color": "#c71e1d",
-    "byCity": {
-      "Bagdad": 0.3,
-      "Teheran": 0.4,
-      "Delhi": 0.3
-    }
+    "cities": [
+      {
+        "name": "Bagdad",
+        "size": 0.3,
+        "x": 0.3,
+        "y": 0.5
+      },
+      {
+        "name": "Teheran",
+        "size": 0.4,
+        "x": 0.6,
+        "y": 0.4
+      },
+      {
+        "name": "Delhi",
+        "size": 0.4,
+        "x": 0.3,
+        "y": 0.9
+      }
+    ]
   },
   {
     "name": "Canada",
@@ -384,11 +819,26 @@
     "categoryy": "GREEN",
     "size": 15.4306128276297,
     "color": "#00dca6",
-    "byCity": {
-      "Bagdad": 0.3,
-      "Teheran": 0.4,
-      "Delhi": 0.3
-    }
+    "cities": [
+      {
+        "name": "Bagdad",
+        "size": 0.3,
+        "x": 0.3,
+        "y": 0.5
+      },
+      {
+        "name": "Teheran",
+        "size": 0.4,
+        "x": 0.6,
+        "y": 0.4
+      },
+      {
+        "name": "Delhi",
+        "size": 0.4,
+        "x": 0.3,
+        "y": 0.9
+      }
+    ]
   },
   {
     "name": "Cape Verde",
@@ -397,11 +847,26 @@
     "categoryy": "GREEN",
     "size": 1.18195567512973,
     "color": "#00dca6",
-    "byCity": {
-      "Bagdad": 0.3,
-      "Teheran": 0.4,
-      "Delhi": 0.3
-    }
+    "cities": [
+      {
+        "name": "Bagdad",
+        "size": 0.3,
+        "x": 0.3,
+        "y": 0.5
+      },
+      {
+        "name": "Teheran",
+        "size": 0.4,
+        "x": 0.6,
+        "y": 0.4
+      },
+      {
+        "name": "Delhi",
+        "size": 0.4,
+        "x": 0.3,
+        "y": 0.9
+      }
+    ]
   },
   {
     "name": "Central African Republic",
@@ -410,11 +875,26 @@
     "categoryy": "RED",
     "size": 0.0505776483111769,
     "color": "#c71e1d",
-    "byCity": {
-      "Bagdad": 0.3,
-      "Teheran": 0.4,
-      "Delhi": 0.3
-    }
+    "cities": [
+      {
+        "name": "Bagdad",
+        "size": 0.3,
+        "x": 0.3,
+        "y": 0.5
+      },
+      {
+        "name": "Teheran",
+        "size": 0.4,
+        "x": 0.6,
+        "y": 0.4
+      },
+      {
+        "name": "Delhi",
+        "size": 0.4,
+        "x": 0.3,
+        "y": 0.9
+      }
+    ]
   },
   {
     "name": "Chad",
@@ -424,11 +904,26 @@
     "size": 0.1410934124928,
     "color": "#c71e1d",
     "annotation": "bottom",
-    "byCity": {
-      "Bagdad": 0.3,
-      "Teheran": 0.4,
-      "Delhi": 0.3
-    }
+    "cities": [
+      {
+        "name": "Bagdad",
+        "size": 0.3,
+        "x": 0.3,
+        "y": 0.5
+      },
+      {
+        "name": "Teheran",
+        "size": 0.4,
+        "x": 0.6,
+        "y": 0.4
+      },
+      {
+        "name": "Delhi",
+        "size": 0.4,
+        "x": 0.3,
+        "y": 0.9
+      }
+    ]
   },
   {
     "name": "Chile",
@@ -437,11 +932,26 @@
     "categoryy": "GREEN",
     "size": 4.82111829925293,
     "color": "#00dca6",
-    "byCity": {
-      "Bagdad": 0.3,
-      "Teheran": 0.4,
-      "Delhi": 0.3
-    }
+    "cities": [
+      {
+        "name": "Bagdad",
+        "size": 0.3,
+        "x": 0.3,
+        "y": 0.5
+      },
+      {
+        "name": "Teheran",
+        "size": 0.4,
+        "x": 0.6,
+        "y": 0.4
+      },
+      {
+        "name": "Delhi",
+        "size": 0.4,
+        "x": 0.3,
+        "y": 0.9
+      }
+    ]
   },
   {
     "name": "China",
@@ -450,11 +960,26 @@
     "categoryy": "GREEN",
     "size": 7.60593696057347,
     "color": "#00dca6",
-    "byCity": {
-      "Bagdad": 0.3,
-      "Teheran": 0.4,
-      "Delhi": 0.3
-    }
+    "cities": [
+      {
+        "name": "Bagdad",
+        "size": 0.3,
+        "x": 0.3,
+        "y": 0.5
+      },
+      {
+        "name": "Teheran",
+        "size": 0.4,
+        "x": 0.6,
+        "y": 0.4
+      },
+      {
+        "name": "Delhi",
+        "size": 0.4,
+        "x": 0.3,
+        "y": 0.9
+      }
+    ]
   },
   {
     "name": "Colombia",
@@ -463,11 +988,26 @@
     "categoryy": "YELLOW",
     "size": 1.60987083062336,
     "color": "#fa8c00",
-    "byCity": {
-      "Bagdad": 0.3,
-      "Teheran": 0.4,
-      "Delhi": 0.3
-    }
+    "cities": [
+      {
+        "name": "Bagdad",
+        "size": 0.3,
+        "x": 0.3,
+        "y": 0.5
+      },
+      {
+        "name": "Teheran",
+        "size": 0.4,
+        "x": 0.6,
+        "y": 0.4
+      },
+      {
+        "name": "Delhi",
+        "size": 0.4,
+        "x": 0.3,
+        "y": 0.9
+      }
+    ]
   },
   {
     "name": "Comoros",
@@ -476,11 +1016,26 @@
     "categoryy": "RED",
     "size": 0.376076363303223,
     "color": "#c71e1d",
-    "byCity": {
-      "Bagdad": 0.3,
-      "Teheran": 0.4,
-      "Delhi": 0.3
-    }
+    "cities": [
+      {
+        "name": "Bagdad",
+        "size": 0.3,
+        "x": 0.3,
+        "y": 0.5
+      },
+      {
+        "name": "Teheran",
+        "size": 0.4,
+        "x": 0.6,
+        "y": 0.4
+      },
+      {
+        "name": "Delhi",
+        "size": 0.4,
+        "x": 0.3,
+        "y": 0.9
+      }
+    ]
   },
   {
     "name": "Congo",
@@ -489,11 +1044,26 @@
     "categoryy": "RED",
     "size": 1.34931601739946,
     "color": "#c71e1d",
-    "byCity": {
-      "Bagdad": 0.3,
-      "Teheran": 0.4,
-      "Delhi": 0.3
-    }
+    "cities": [
+      {
+        "name": "Bagdad",
+        "size": 0.3,
+        "x": 0.3,
+        "y": 0.5
+      },
+      {
+        "name": "Teheran",
+        "size": 0.4,
+        "x": 0.6,
+        "y": 0.4
+      },
+      {
+        "name": "Delhi",
+        "size": 0.4,
+        "x": 0.3,
+        "y": 0.9
+      }
+    ]
   },
   {
     "name": "The Democratic Republic of Congo",
@@ -502,11 +1072,26 @@
     "categoryy": "RED",
     "size": 0.0369855862465028,
     "color": "#c71e1d",
-    "byCity": {
-      "Bagdad": 0.3,
-      "Teheran": 0.4,
-      "Delhi": 0.3
-    }
+    "cities": [
+      {
+        "name": "Bagdad",
+        "size": 0.3,
+        "x": 0.3,
+        "y": 0.5
+      },
+      {
+        "name": "Teheran",
+        "size": 0.4,
+        "x": 0.6,
+        "y": 0.4
+      },
+      {
+        "name": "Delhi",
+        "size": 0.4,
+        "x": 0.3,
+        "y": 0.9
+      }
+    ]
   },
   {
     "name": "Costa Rica",
@@ -515,11 +1100,26 @@
     "categoryy": "GREEN",
     "size": 1.63247155826708,
     "color": "#00dca6",
-    "byCity": {
-      "Bagdad": 0.3,
-      "Teheran": 0.4,
-      "Delhi": 0.3
-    }
+    "cities": [
+      {
+        "name": "Bagdad",
+        "size": 0.3,
+        "x": 0.3,
+        "y": 0.5
+      },
+      {
+        "name": "Teheran",
+        "size": 0.4,
+        "x": 0.6,
+        "y": 0.4
+      },
+      {
+        "name": "Delhi",
+        "size": 0.4,
+        "x": 0.3,
+        "y": 0.9
+      }
+    ]
   },
   {
     "name": "Cote d'Ivoire",
@@ -528,11 +1128,26 @@
     "categoryy": "RED",
     "size": 0.421129515397207,
     "color": "#c71e1d",
-    "byCity": {
-      "Bagdad": 0.3,
-      "Teheran": 0.4,
-      "Delhi": 0.3
-    }
+    "cities": [
+      {
+        "name": "Bagdad",
+        "size": 0.3,
+        "x": 0.3,
+        "y": 0.5
+      },
+      {
+        "name": "Teheran",
+        "size": 0.4,
+        "x": 0.6,
+        "y": 0.4
+      },
+      {
+        "name": "Delhi",
+        "size": 0.4,
+        "x": 0.3,
+        "y": 0.9
+      }
+    ]
   },
   {
     "name": "Croatia",
@@ -541,11 +1156,26 @@
     "categoryy": "GREEN",
     "size": 4.06370783264011,
     "color": "#00dca6",
-    "byCity": {
-      "Bagdad": 0.3,
-      "Teheran": 0.4,
-      "Delhi": 0.3
-    }
+    "cities": [
+      {
+        "name": "Bagdad",
+        "size": 0.3,
+        "x": 0.3,
+        "y": 0.5
+      },
+      {
+        "name": "Teheran",
+        "size": 0.4,
+        "x": 0.6,
+        "y": 0.4
+      },
+      {
+        "name": "Delhi",
+        "size": 0.4,
+        "x": 0.3,
+        "y": 0.9
+      }
+    ]
   },
   {
     "name": "Cuba",
@@ -554,11 +1184,26 @@
     "categoryy": "RED",
     "size": 2.28614606482985,
     "color": "#c71e1d",
-    "byCity": {
-      "Bagdad": 0.3,
-      "Teheran": 0.4,
-      "Delhi": 0.3
-    }
+    "cities": [
+      {
+        "name": "Bagdad",
+        "size": 0.3,
+        "x": 0.3,
+        "y": 0.5
+      },
+      {
+        "name": "Teheran",
+        "size": 0.4,
+        "x": 0.6,
+        "y": 0.4
+      },
+      {
+        "name": "Delhi",
+        "size": 0.4,
+        "x": 0.3,
+        "y": 0.9
+      }
+    ]
   },
   {
     "name": "Cyprus",
@@ -567,11 +1212,26 @@
     "categoryy": "GREEN",
     "size": 5.99879528274471,
     "color": "#00dca6",
-    "byCity": {
-      "Bagdad": 0.3,
-      "Teheran": 0.4,
-      "Delhi": 0.3
-    }
+    "cities": [
+      {
+        "name": "Bagdad",
+        "size": 0.3,
+        "x": 0.3,
+        "y": 0.5
+      },
+      {
+        "name": "Teheran",
+        "size": 0.4,
+        "x": 0.6,
+        "y": 0.4
+      },
+      {
+        "name": "Delhi",
+        "size": 0.4,
+        "x": 0.3,
+        "y": 0.9
+      }
+    ]
   },
   {
     "name": "Czech Republic",
@@ -581,11 +1241,26 @@
     "size": 9.02278615795801,
     "color": "#00dca6",
     "annotation": "left",
-    "byCity": {
-      "Bagdad": 0.3,
-      "Teheran": 0.4,
-      "Delhi": 0.3
-    }
+    "cities": [
+      {
+        "name": "Bagdad",
+        "size": 0.3,
+        "x": 0.3,
+        "y": 0.5
+      },
+      {
+        "name": "Teheran",
+        "size": 0.4,
+        "x": 0.6,
+        "y": 0.4
+      },
+      {
+        "name": "Delhi",
+        "size": 0.4,
+        "x": 0.3,
+        "y": 0.9
+      }
+    ]
   },
   {
     "name": "Denmark",
@@ -594,11 +1269,26 @@
     "categoryy": "GREEN",
     "size": 5.10798850907958,
     "color": "#00dca6",
-    "byCity": {
-      "Bagdad": 0.3,
-      "Teheran": 0.4,
-      "Delhi": 0.3
-    }
+    "cities": [
+      {
+        "name": "Bagdad",
+        "size": 0.3,
+        "x": 0.3,
+        "y": 0.5
+      },
+      {
+        "name": "Teheran",
+        "size": 0.4,
+        "x": 0.6,
+        "y": 0.4
+      },
+      {
+        "name": "Delhi",
+        "size": 0.4,
+        "x": 0.3,
+        "y": 0.9
+      }
+    ]
   },
   {
     "name": "Djibouti",
@@ -607,11 +1297,26 @@
     "categoryy": "RED",
     "size": 0.431407700717039,
     "color": "#c71e1d",
-    "byCity": {
-      "Bagdad": 0.3,
-      "Teheran": 0.4,
-      "Delhi": 0.3
-    }
+    "cities": [
+      {
+        "name": "Bagdad",
+        "size": 0.3,
+        "x": 0.3,
+        "y": 0.5
+      },
+      {
+        "name": "Teheran",
+        "size": 0.4,
+        "x": 0.6,
+        "y": 0.4
+      },
+      {
+        "name": "Delhi",
+        "size": 0.4,
+        "x": 0.3,
+        "y": 0.9
+      }
+    ]
   },
   {
     "name": "Dominica",
@@ -620,11 +1325,26 @@
     "categoryy": "BLUE",
     "size": 2.36742426732591,
     "color": "#18a1cd",
-    "byCity": {
-      "Bagdad": 0.3,
-      "Teheran": 0.4,
-      "Delhi": 0.3
-    }
+    "cities": [
+      {
+        "name": "Bagdad",
+        "size": 0.3,
+        "x": 0.3,
+        "y": 0.5
+      },
+      {
+        "name": "Teheran",
+        "size": 0.4,
+        "x": 0.6,
+        "y": 0.4
+      },
+      {
+        "name": "Delhi",
+        "size": 0.4,
+        "x": 0.3,
+        "y": 0.9
+      }
+    ]
   },
   {
     "name": "Dominican Republic",
@@ -633,11 +1353,26 @@
     "categoryy": "YELLOW",
     "size": 2.53562795178678,
     "color": "#fa8c00",
-    "byCity": {
-      "Bagdad": 0.3,
-      "Teheran": 0.4,
-      "Delhi": 0.3
-    }
+    "cities": [
+      {
+        "name": "Bagdad",
+        "size": 0.3,
+        "x": 0.3,
+        "y": 0.5
+      },
+      {
+        "name": "Teheran",
+        "size": 0.4,
+        "x": 0.6,
+        "y": 0.4
+      },
+      {
+        "name": "Delhi",
+        "size": 0.4,
+        "x": 0.3,
+        "y": 0.9
+      }
+    ]
   },
   {
     "name": "Ecuador",
@@ -646,11 +1381,26 @@
     "categoryy": "RED",
     "size": 2.26146981694915,
     "color": "#c71e1d",
-    "byCity": {
-      "Bagdad": 0.3,
-      "Teheran": 0.4,
-      "Delhi": 0.3
-    }
+    "cities": [
+      {
+        "name": "Bagdad",
+        "size": 0.3,
+        "x": 0.3,
+        "y": 0.5
+      },
+      {
+        "name": "Teheran",
+        "size": 0.4,
+        "x": 0.6,
+        "y": 0.4
+      },
+      {
+        "name": "Delhi",
+        "size": 0.4,
+        "x": 0.3,
+        "y": 0.9
+      }
+    ]
   },
   {
     "name": "Egypt",
@@ -659,11 +1409,26 @@
     "categoryy": "RED",
     "size": 2.48405991083232,
     "color": "#c71e1d",
-    "byCity": {
-      "Bagdad": 0.3,
-      "Teheran": 0.4,
-      "Delhi": 0.3
-    }
+    "cities": [
+      {
+        "name": "Bagdad",
+        "size": 0.3,
+        "x": 0.3,
+        "y": 0.5
+      },
+      {
+        "name": "Teheran",
+        "size": 0.4,
+        "x": 0.6,
+        "y": 0.4
+      },
+      {
+        "name": "Delhi",
+        "size": 0.4,
+        "x": 0.3,
+        "y": 0.9
+      }
+    ]
   },
   {
     "name": "El Salvador",
@@ -672,11 +1437,26 @@
     "categoryy": "RED",
     "size": 1.20863713626374,
     "color": "#c71e1d",
-    "byCity": {
-      "Bagdad": 0.3,
-      "Teheran": 0.4,
-      "Delhi": 0.3
-    }
+    "cities": [
+      {
+        "name": "Bagdad",
+        "size": 0.3,
+        "x": 0.3,
+        "y": 0.5
+      },
+      {
+        "name": "Teheran",
+        "size": 0.4,
+        "x": 0.6,
+        "y": 0.4
+      },
+      {
+        "name": "Delhi",
+        "size": 0.4,
+        "x": 0.3,
+        "y": 0.9
+      }
+    ]
   },
   {
     "name": "Equatorial Guinea",
@@ -685,11 +1465,26 @@
     "categoryy": "RED",
     "size": 3.94548003191235,
     "color": "#c71e1d",
-    "byCity": {
-      "Bagdad": 0.3,
-      "Teheran": 0.4,
-      "Delhi": 0.3
-    }
+    "cities": [
+      {
+        "name": "Bagdad",
+        "size": 0.3,
+        "x": 0.3,
+        "y": 0.5
+      },
+      {
+        "name": "Teheran",
+        "size": 0.4,
+        "x": 0.6,
+        "y": 0.4
+      },
+      {
+        "name": "Delhi",
+        "size": 0.4,
+        "x": 0.3,
+        "y": 0.9
+      }
+    ]
   },
   {
     "name": "Eritrea",
@@ -698,11 +1493,26 @@
     "categoryy": "RED",
     "size": 0.251635846107416,
     "color": "#c71e1d",
-    "byCity": {
-      "Bagdad": 0.3,
-      "Teheran": 0.4,
-      "Delhi": 0.3
-    }
+    "cities": [
+      {
+        "name": "Bagdad",
+        "size": 0.3,
+        "x": 0.3,
+        "y": 0.5
+      },
+      {
+        "name": "Teheran",
+        "size": 0.4,
+        "x": 0.6,
+        "y": 0.4
+      },
+      {
+        "name": "Delhi",
+        "size": 0.4,
+        "x": 0.3,
+        "y": 0.9
+      }
+    ]
   },
   {
     "name": "Estonia",
@@ -711,11 +1521,26 @@
     "categoryy": "GREEN",
     "size": 7.67227790917304,
     "color": "#00dca6",
-    "byCity": {
-      "Bagdad": 0.3,
-      "Teheran": 0.4,
-      "Delhi": 0.3
-    }
+    "cities": [
+      {
+        "name": "Bagdad",
+        "size": 0.3,
+        "x": 0.3,
+        "y": 0.5
+      },
+      {
+        "name": "Teheran",
+        "size": 0.4,
+        "x": 0.6,
+        "y": 0.4
+      },
+      {
+        "name": "Delhi",
+        "size": 0.4,
+        "x": 0.3,
+        "y": 0.9
+      }
+    ]
   },
   {
     "name": "Ethiopia",
@@ -724,11 +1549,26 @@
     "categoryy": "RED",
     "size": 0.16381342920099,
     "color": "#c71e1d",
-    "byCity": {
-      "Bagdad": 0.3,
-      "Teheran": 0.4,
-      "Delhi": 0.3
-    }
+    "cities": [
+      {
+        "name": "Bagdad",
+        "size": 0.3,
+        "x": 0.3,
+        "y": 0.5
+      },
+      {
+        "name": "Teheran",
+        "size": 0.4,
+        "x": 0.6,
+        "y": 0.4
+      },
+      {
+        "name": "Delhi",
+        "size": 0.4,
+        "x": 0.3,
+        "y": 0.9
+      }
+    ]
   },
   {
     "name": "Fiji",
@@ -737,11 +1577,26 @@
     "categoryy": "BLUE",
     "size": 1.83155327542587,
     "color": "#18a1cd",
-    "byCity": {
-      "Bagdad": 0.3,
-      "Teheran": 0.4,
-      "Delhi": 0.3
-    }
+    "cities": [
+      {
+        "name": "Bagdad",
+        "size": 0.3,
+        "x": 0.3,
+        "y": 0.5
+      },
+      {
+        "name": "Teheran",
+        "size": 0.4,
+        "x": 0.6,
+        "y": 0.4
+      },
+      {
+        "name": "Delhi",
+        "size": 0.4,
+        "x": 0.3,
+        "y": 0.9
+      }
+    ]
   },
   {
     "name": "Finland",
@@ -750,11 +1605,26 @@
     "categoryy": "GREEN",
     "size": 7.37285476082008,
     "color": "#00dca6",
-    "byCity": {
-      "Bagdad": 0.3,
-      "Teheran": 0.4,
-      "Delhi": 0.3
-    }
+    "cities": [
+      {
+        "name": "Bagdad",
+        "size": 0.3,
+        "x": 0.3,
+        "y": 0.5
+      },
+      {
+        "name": "Teheran",
+        "size": 0.4,
+        "x": 0.6,
+        "y": 0.4
+      },
+      {
+        "name": "Delhi",
+        "size": 0.4,
+        "x": 0.3,
+        "y": 0.9
+      }
+    ]
   },
   {
     "name": "France",
@@ -763,11 +1633,26 @@
     "categoryy": "GREEN",
     "size": 4.46877008881409,
     "color": "#00dca6",
-    "byCity": {
-      "Bagdad": 0.3,
-      "Teheran": 0.4,
-      "Delhi": 0.3
-    }
+    "cities": [
+      {
+        "name": "Bagdad",
+        "size": 0.3,
+        "x": 0.3,
+        "y": 0.5
+      },
+      {
+        "name": "Teheran",
+        "size": 0.4,
+        "x": 0.6,
+        "y": 0.4
+      },
+      {
+        "name": "Delhi",
+        "size": 0.4,
+        "x": 0.3,
+        "y": 0.9
+      }
+    ]
   },
   {
     "name": "Gabon",
@@ -776,11 +1661,26 @@
     "categoryy": "YELLOW",
     "size": 2.41648401116093,
     "color": "#fa8c00",
-    "byCity": {
-      "Bagdad": 0.3,
-      "Teheran": 0.4,
-      "Delhi": 0.3
-    }
+    "cities": [
+      {
+        "name": "Bagdad",
+        "size": 0.3,
+        "x": 0.3,
+        "y": 0.5
+      },
+      {
+        "name": "Teheran",
+        "size": 0.4,
+        "x": 0.6,
+        "y": 0.4
+      },
+      {
+        "name": "Delhi",
+        "size": 0.4,
+        "x": 0.3,
+        "y": 0.9
+      }
+    ]
   },
   {
     "name": "Gambia",
@@ -789,11 +1689,26 @@
     "categoryy": "RED",
     "size": 0.247050718368434,
     "color": "#c71e1d",
-    "byCity": {
-      "Bagdad": 0.3,
-      "Teheran": 0.4,
-      "Delhi": 0.3
-    }
+    "cities": [
+      {
+        "name": "Bagdad",
+        "size": 0.3,
+        "x": 0.3,
+        "y": 0.5
+      },
+      {
+        "name": "Teheran",
+        "size": 0.4,
+        "x": 0.6,
+        "y": 0.4
+      },
+      {
+        "name": "Delhi",
+        "size": 0.4,
+        "x": 0.3,
+        "y": 0.9
+      }
+    ]
   },
   {
     "name": "Georgia",
@@ -802,11 +1717,26 @@
     "categoryy": "GREEN",
     "size": 2.71762422558518,
     "color": "#00dca6",
-    "byCity": {
-      "Bagdad": 0.3,
-      "Teheran": 0.4,
-      "Delhi": 0.3
-    }
+    "cities": [
+      {
+        "name": "Bagdad",
+        "size": 0.3,
+        "x": 0.3,
+        "y": 0.5
+      },
+      {
+        "name": "Teheran",
+        "size": 0.4,
+        "x": 0.6,
+        "y": 0.4
+      },
+      {
+        "name": "Delhi",
+        "size": 0.4,
+        "x": 0.3,
+        "y": 0.9
+      }
+    ]
   },
   {
     "name": "Germany",
@@ -815,11 +1745,26 @@
     "categoryy": "GREEN",
     "size": 7.91162101567715,
     "color": "#00dca6",
-    "byCity": {
-      "Bagdad": 0.3,
-      "Teheran": 0.4,
-      "Delhi": 0.3
-    }
+    "cities": [
+      {
+        "name": "Bagdad",
+        "size": 0.3,
+        "x": 0.3,
+        "y": 0.5
+      },
+      {
+        "name": "Teheran",
+        "size": 0.4,
+        "x": 0.6,
+        "y": 0.4
+      },
+      {
+        "name": "Delhi",
+        "size": 0.4,
+        "x": 0.3,
+        "y": 0.9
+      }
+    ]
   },
   {
     "name": "Ghana",
@@ -828,11 +1773,26 @@
     "categoryy": "RED",
     "size": 0.658823540945168,
     "color": "#c71e1d",
-    "byCity": {
-      "Bagdad": 0.3,
-      "Teheran": 0.4,
-      "Delhi": 0.3
-    }
+    "cities": [
+      {
+        "name": "Bagdad",
+        "size": 0.3,
+        "x": 0.3,
+        "y": 0.5
+      },
+      {
+        "name": "Teheran",
+        "size": 0.4,
+        "x": 0.6,
+        "y": 0.4
+      },
+      {
+        "name": "Delhi",
+        "size": 0.4,
+        "x": 0.3,
+        "y": 0.9
+      }
+    ]
   },
   {
     "name": "Greece",
@@ -841,11 +1801,26 @@
     "categoryy": "GREEN",
     "size": 5.59618906985928,
     "color": "#00dca6",
-    "byCity": {
-      "Bagdad": 0.3,
-      "Teheran": 0.4,
-      "Delhi": 0.3
-    }
+    "cities": [
+      {
+        "name": "Bagdad",
+        "size": 0.3,
+        "x": 0.3,
+        "y": 0.5
+      },
+      {
+        "name": "Teheran",
+        "size": 0.4,
+        "x": 0.6,
+        "y": 0.4
+      },
+      {
+        "name": "Delhi",
+        "size": 0.4,
+        "x": 0.3,
+        "y": 0.9
+      }
+    ]
   },
   {
     "name": "Grenada",
@@ -854,11 +1829,26 @@
     "categoryy": "GREEN",
     "size": 2.94637607465065,
     "color": "#00dca6",
-    "byCity": {
-      "Bagdad": 0.3,
-      "Teheran": 0.4,
-      "Delhi": 0.3
-    }
+    "cities": [
+      {
+        "name": "Bagdad",
+        "size": 0.3,
+        "x": 0.3,
+        "y": 0.5
+      },
+      {
+        "name": "Teheran",
+        "size": 0.4,
+        "x": 0.6,
+        "y": 0.4
+      },
+      {
+        "name": "Delhi",
+        "size": 0.4,
+        "x": 0.3,
+        "y": 0.9
+      }
+    ]
   },
   {
     "name": "Guatemala",
@@ -867,11 +1857,26 @@
     "categoryy": "RED",
     "size": 1.16297092439764,
     "color": "#c71e1d",
-    "byCity": {
-      "Bagdad": 0.3,
-      "Teheran": 0.4,
-      "Delhi": 0.3
-    }
+    "cities": [
+      {
+        "name": "Bagdad",
+        "size": 0.3,
+        "x": 0.3,
+        "y": 0.5
+      },
+      {
+        "name": "Teheran",
+        "size": 0.4,
+        "x": 0.6,
+        "y": 0.4
+      },
+      {
+        "name": "Delhi",
+        "size": 0.4,
+        "x": 0.3,
+        "y": 0.9
+      }
+    ]
   },
   {
     "name": "Guinea",
@@ -880,11 +1885,26 @@
     "categoryy": "RED",
     "size": 0.30928854143783,
     "color": "#c71e1d",
-    "byCity": {
-      "Bagdad": 0.3,
-      "Teheran": 0.4,
-      "Delhi": 0.3
-    }
+    "cities": [
+      {
+        "name": "Bagdad",
+        "size": 0.3,
+        "x": 0.3,
+        "y": 0.5
+      },
+      {
+        "name": "Teheran",
+        "size": 0.4,
+        "x": 0.6,
+        "y": 0.4
+      },
+      {
+        "name": "Delhi",
+        "size": 0.4,
+        "x": 0.3,
+        "y": 0.9
+      }
+    ]
   },
   {
     "name": "Guinea-Bissau",
@@ -893,11 +1913,26 @@
     "categoryy": "RED",
     "size": 0.171792957797251,
     "color": "#c71e1d",
-    "byCity": {
-      "Bagdad": 0.3,
-      "Teheran": 0.4,
-      "Delhi": 0.3
-    }
+    "cities": [
+      {
+        "name": "Bagdad",
+        "size": 0.3,
+        "x": 0.3,
+        "y": 0.5
+      },
+      {
+        "name": "Teheran",
+        "size": 0.4,
+        "x": 0.6,
+        "y": 0.4
+      },
+      {
+        "name": "Delhi",
+        "size": 0.4,
+        "x": 0.3,
+        "y": 0.9
+      }
+    ]
   },
   {
     "name": "Guyana",
@@ -906,11 +1941,26 @@
     "categoryy": "RED",
     "size": 3.64089285507658,
     "color": "#c71e1d",
-    "byCity": {
-      "Bagdad": 0.3,
-      "Teheran": 0.4,
-      "Delhi": 0.3
-    }
+    "cities": [
+      {
+        "name": "Bagdad",
+        "size": 0.3,
+        "x": 0.3,
+        "y": 0.5
+      },
+      {
+        "name": "Teheran",
+        "size": 0.4,
+        "x": 0.6,
+        "y": 0.4
+      },
+      {
+        "name": "Delhi",
+        "size": 0.4,
+        "x": 0.3,
+        "y": 0.9
+      }
+    ]
   },
   {
     "name": "Haiti",
@@ -919,11 +1969,26 @@
     "categoryy": "RED",
     "size": 0.294768413969466,
     "color": "#c71e1d",
-    "byCity": {
-      "Bagdad": 0.3,
-      "Teheran": 0.4,
-      "Delhi": 0.3
-    }
+    "cities": [
+      {
+        "name": "Bagdad",
+        "size": 0.3,
+        "x": 0.3,
+        "y": 0.5
+      },
+      {
+        "name": "Teheran",
+        "size": 0.4,
+        "x": 0.6,
+        "y": 0.4
+      },
+      {
+        "name": "Delhi",
+        "size": 0.4,
+        "x": 0.3,
+        "y": 0.9
+      }
+    ]
   },
   {
     "name": "Honduras",
@@ -932,11 +1997,26 @@
     "categoryy": "RED",
     "size": 1.04862299152317,
     "color": "#c71e1d",
-    "byCity": {
-      "Bagdad": 0.3,
-      "Teheran": 0.4,
-      "Delhi": 0.3
-    }
+    "cities": [
+      {
+        "name": "Bagdad",
+        "size": 0.3,
+        "x": 0.3,
+        "y": 0.5
+      },
+      {
+        "name": "Teheran",
+        "size": 0.4,
+        "x": 0.6,
+        "y": 0.4
+      },
+      {
+        "name": "Delhi",
+        "size": 0.4,
+        "x": 0.3,
+        "y": 0.9
+      }
+    ]
   },
   {
     "name": "Hungary",
@@ -945,11 +2025,26 @@
     "categoryy": "GREEN",
     "size": 4.74663102989868,
     "color": "#00dca6",
-    "byCity": {
-      "Bagdad": 0.3,
-      "Teheran": 0.4,
-      "Delhi": 0.3
-    }
+    "cities": [
+      {
+        "name": "Bagdad",
+        "size": 0.3,
+        "x": 0.3,
+        "y": 0.5
+      },
+      {
+        "name": "Teheran",
+        "size": 0.4,
+        "x": 0.6,
+        "y": 0.4
+      },
+      {
+        "name": "Delhi",
+        "size": 0.4,
+        "x": 0.3,
+        "y": 0.9
+      }
+    ]
   },
   {
     "name": "Iceland",
@@ -958,11 +2053,26 @@
     "categoryy": "GREEN",
     "size": 4.54844225751086,
     "color": "#00dca6",
-    "byCity": {
-      "Bagdad": 0.3,
-      "Teheran": 0.4,
-      "Delhi": 0.3
-    }
+    "cities": [
+      {
+        "name": "Bagdad",
+        "size": 0.3,
+        "x": 0.3,
+        "y": 0.5
+      },
+      {
+        "name": "Teheran",
+        "size": 0.4,
+        "x": 0.6,
+        "y": 0.4
+      },
+      {
+        "name": "Delhi",
+        "size": 0.4,
+        "x": 0.3,
+        "y": 0.9
+      }
+    ]
   },
   {
     "name": "India",
@@ -972,11 +2082,26 @@
     "size": 1.79762011876852,
     "color": "#c71e1d",
     "annotation": "right",
-    "byCity": {
-      "Bagdad": 0.3,
-      "Teheran": 0.4,
-      "Delhi": 0.3
-    }
+    "cities": [
+      {
+        "name": "Bagdad",
+        "size": 0.3,
+        "x": 0.3,
+        "y": 0.5
+      },
+      {
+        "name": "Teheran",
+        "size": 0.4,
+        "x": 0.6,
+        "y": 0.4
+      },
+      {
+        "name": "Delhi",
+        "size": 0.4,
+        "x": 0.3,
+        "y": 0.9
+      }
+    ]
   },
   {
     "name": "Indonesia",
@@ -985,11 +2110,26 @@
     "categoryy": "RED",
     "size": 2.2903971480842,
     "color": "#c71e1d",
-    "byCity": {
-      "Bagdad": 0.3,
-      "Teheran": 0.4,
-      "Delhi": 0.3
-    }
+    "cities": [
+      {
+        "name": "Bagdad",
+        "size": 0.3,
+        "x": 0.3,
+        "y": 0.5
+      },
+      {
+        "name": "Teheran",
+        "size": 0.4,
+        "x": 0.6,
+        "y": 0.4
+      },
+      {
+        "name": "Delhi",
+        "size": 0.4,
+        "x": 0.3,
+        "y": 0.9
+      }
+    ]
   },
   {
     "name": "Iran",
@@ -998,11 +2138,26 @@
     "categoryy": "YELLOW",
     "size": 7.59836484538996,
     "color": "#fa8c00",
-    "byCity": {
-      "Bagdad": 0.3,
-      "Teheran": 0.4,
-      "Delhi": 0.3
-    }
+    "cities": [
+      {
+        "name": "Bagdad",
+        "size": 0.3,
+        "x": 0.3,
+        "y": 0.5
+      },
+      {
+        "name": "Teheran",
+        "size": 0.4,
+        "x": 0.6,
+        "y": 0.4
+      },
+      {
+        "name": "Delhi",
+        "size": 0.4,
+        "x": 0.3,
+        "y": 0.9
+      }
+    ]
   },
   {
     "name": "Iraq",
@@ -1011,11 +2166,26 @@
     "categoryy": "RED",
     "size": 4.44062412949085,
     "color": "#c71e1d",
-    "byCity": {
-      "Bagdad": 0.3,
-      "Teheran": 0.4,
-      "Delhi": 0.3
-    }
+    "cities": [
+      {
+        "name": "Bagdad",
+        "size": 0.3,
+        "x": 0.3,
+        "y": 0.5
+      },
+      {
+        "name": "Teheran",
+        "size": 0.4,
+        "x": 0.6,
+        "y": 0.4
+      },
+      {
+        "name": "Delhi",
+        "size": 0.4,
+        "x": 0.3,
+        "y": 0.9
+      }
+    ]
   },
   {
     "name": "Ireland",
@@ -1024,11 +2194,26 @@
     "categoryy": "GREEN",
     "size": 7.24514322077522,
     "color": "#00dca6",
-    "byCity": {
-      "Dublin": 0.3,
-      "London": 0.6,
-      "Paris": 0.1
-    }
+    "cities": [
+      {
+        "name": "Dublin",
+        "size": 0.3,
+        "x": 0.4,
+        "y": 0.4
+      },
+      {
+        "name": "London",
+        "size": 0.4,
+        "x": 0.6,
+        "y": 0.1
+      },
+      {
+        "name": "Paris",
+        "size": 0.4,
+        "x": 0.6,
+        "y": 0.8
+      }
+    ]
   },
   {
     "name": "Israel",
@@ -1037,11 +2222,26 @@
     "categoryy": "GREEN",
     "size": 6.91959371834315,
     "color": "#00dca6",
-    "byCity": {
-      "Dublin": 0.3,
-      "London": 0.6,
-      "Paris": 0.1
-    }
+    "cities": [
+      {
+        "name": "Dublin",
+        "size": 0.3,
+        "x": 0.4,
+        "y": 0.4
+      },
+      {
+        "name": "London",
+        "size": 0.4,
+        "x": 0.6,
+        "y": 0.1
+      },
+      {
+        "name": "Paris",
+        "size": 0.4,
+        "x": 0.6,
+        "y": 0.8
+      }
+    ]
   },
   {
     "name": "Italy",
@@ -1050,11 +2250,26 @@
     "categoryy": "GREEN",
     "size": 5.31131544170879,
     "color": "#00dca6",
-    "byCity": {
-      "Dublin": 0.3,
-      "London": 0.6,
-      "Paris": 0.1
-    }
+    "cities": [
+      {
+        "name": "Dublin",
+        "size": 0.3,
+        "x": 0.4,
+        "y": 0.4
+      },
+      {
+        "name": "London",
+        "size": 0.4,
+        "x": 0.6,
+        "y": 0.1
+      },
+      {
+        "name": "Paris",
+        "size": 0.4,
+        "x": 0.6,
+        "y": 0.8
+      }
+    ]
   },
   {
     "name": "Jamaica",
@@ -1063,11 +2278,26 @@
     "categoryy": "YELLOW",
     "size": 2.84573001224876,
     "color": "#fa8c00",
-    "byCity": {
-      "Dublin": 0.3,
-      "London": 0.6,
-      "Paris": 0.1
-    }
+    "cities": [
+      {
+        "name": "Dublin",
+        "size": 0.3,
+        "x": 0.4,
+        "y": 0.4
+      },
+      {
+        "name": "London",
+        "size": 0.4,
+        "x": 0.6,
+        "y": 0.1
+      },
+      {
+        "name": "Paris",
+        "size": 0.4,
+        "x": 0.6,
+        "y": 0.8
+      }
+    ]
   },
   {
     "name": "Japan",
@@ -1076,11 +2306,26 @@
     "categoryy": "GREEN",
     "size": 8.54098020491546,
     "color": "#00dca6",
-    "byCity": {
-      "Dublin": 0.3,
-      "London": 0.6,
-      "Paris": 0.1
-    }
+    "cities": [
+      {
+        "name": "Dublin",
+        "size": 0.3,
+        "x": 0.4,
+        "y": 0.4
+      },
+      {
+        "name": "London",
+        "size": 0.4,
+        "x": 0.6,
+        "y": 0.1
+      },
+      {
+        "name": "Paris",
+        "size": 0.4,
+        "x": 0.6,
+        "y": 0.8
+      }
+    ]
   },
   {
     "name": "Jordan",
@@ -1089,11 +2334,26 @@
     "categoryy": "YELLOW",
     "size": 2.43820411172168,
     "color": "#fa8c00",
-    "byCity": {
-      "Dublin": 0.3,
-      "London": 0.6,
-      "Paris": 0.1
-    }
+    "cities": [
+      {
+        "name": "Dublin",
+        "size": 0.3,
+        "x": 0.4,
+        "y": 0.4
+      },
+      {
+        "name": "London",
+        "size": 0.4,
+        "x": 0.6,
+        "y": 0.1
+      },
+      {
+        "name": "Paris",
+        "size": 0.4,
+        "x": 0.6,
+        "y": 0.8
+      }
+    ]
   },
   {
     "name": "Kazakhstan",
@@ -1102,11 +2362,26 @@
     "categoryy": "GREEN",
     "size": 11.4569378323984,
     "color": "#00dca6",
-    "byCity": {
-      "Dublin": 0.3,
-      "London": 0.6,
-      "Paris": 0.1
-    }
+    "cities": [
+      {
+        "name": "Dublin",
+        "size": 0.3,
+        "x": 0.4,
+        "y": 0.4
+      },
+      {
+        "name": "London",
+        "size": 0.4,
+        "x": 0.6,
+        "y": 0.1
+      },
+      {
+        "name": "Paris",
+        "size": 0.4,
+        "x": 0.6,
+        "y": 0.8
+      }
+    ]
   },
   {
     "name": "Kenya",
@@ -1115,11 +2390,26 @@
     "categoryy": "RED",
     "size": 0.423783898343557,
     "color": "#c71e1d",
-    "byCity": {
-      "Dublin": 0.3,
-      "London": 0.6,
-      "Paris": 0.1
-    }
+    "cities": [
+      {
+        "name": "Dublin",
+        "size": 0.3,
+        "x": 0.4,
+        "y": 0.4
+      },
+      {
+        "name": "London",
+        "size": 0.4,
+        "x": 0.6,
+        "y": 0.1
+      },
+      {
+        "name": "Paris",
+        "size": 0.4,
+        "x": 0.6,
+        "y": 0.8
+      }
+    ]
   },
   {
     "name": "North Korea",
@@ -1128,11 +2418,26 @@
     "categoryy": "RED",
     "size": 2.18341993045969,
     "color": "#c71e1d",
-    "byCity": {
-      "Dublin": 0.3,
-      "London": 0.6,
-      "Paris": 0.1
-    }
+    "cities": [
+      {
+        "name": "Dublin",
+        "size": 0.3,
+        "x": 0.4,
+        "y": 0.4
+      },
+      {
+        "name": "London",
+        "size": 0.4,
+        "x": 0.6,
+        "y": 0.1
+      },
+      {
+        "name": "Paris",
+        "size": 0.4,
+        "x": 0.6,
+        "y": 0.8
+      }
+    ]
   },
   {
     "name": "South Korea",
@@ -1141,11 +2446,26 @@
     "categoryy": "GREEN",
     "size": 11.7993253802233,
     "color": "#00dca6",
-    "byCity": {
-      "Dublin": 0.3,
-      "London": 0.6,
-      "Paris": 0.1
-    }
+    "cities": [
+      {
+        "name": "Dublin",
+        "size": 0.3,
+        "x": 0.4,
+        "y": 0.4
+      },
+      {
+        "name": "London",
+        "size": 0.4,
+        "x": 0.6,
+        "y": 0.1
+      },
+      {
+        "name": "Paris",
+        "size": 0.4,
+        "x": 0.6,
+        "y": 0.8
+      }
+    ]
   },
   {
     "name": "Kuwait",
@@ -1154,11 +2474,26 @@
     "categoryy": "GREEN",
     "size": 22.0224164011923,
     "color": "#00dca6",
-    "byCity": {
-      "Dublin": 0.3,
-      "London": 0.6,
-      "Paris": 0.1
-    }
+    "cities": [
+      {
+        "name": "Dublin",
+        "size": 0.3,
+        "x": 0.4,
+        "y": 0.4
+      },
+      {
+        "name": "London",
+        "size": 0.4,
+        "x": 0.6,
+        "y": 0.1
+      },
+      {
+        "name": "Paris",
+        "size": 0.4,
+        "x": 0.6,
+        "y": 0.8
+      }
+    ]
   },
   {
     "name": "Kyrgyzstan",
@@ -1167,11 +2502,26 @@
     "categoryy": "YELLOW",
     "size": 1.55664325620875,
     "color": "#fa8c00",
-    "byCity": {
-      "Dublin": 0.3,
-      "London": 0.6,
-      "Paris": 0.1
-    }
+    "cities": [
+      {
+        "name": "Dublin",
+        "size": 0.3,
+        "x": 0.4,
+        "y": 0.4
+      },
+      {
+        "name": "London",
+        "size": 0.4,
+        "x": 0.6,
+        "y": 0.1
+      },
+      {
+        "name": "Paris",
+        "size": 0.4,
+        "x": 0.6,
+        "y": 0.8
+      }
+    ]
   },
   {
     "name": "Lao",
@@ -1180,11 +2530,26 @@
     "categoryy": "RED",
     "size": 2.60968183422462,
     "color": "#c71e1d",
-    "byCity": {
-      "Dublin": 0.3,
-      "London": 0.6,
-      "Paris": 0.1
-    }
+    "cities": [
+      {
+        "name": "Dublin",
+        "size": 0.3,
+        "x": 0.4,
+        "y": 0.4
+      },
+      {
+        "name": "London",
+        "size": 0.4,
+        "x": 0.6,
+        "y": 0.1
+      },
+      {
+        "name": "Paris",
+        "size": 0.4,
+        "x": 0.6,
+        "y": 0.8
+      }
+    ]
   },
   {
     "name": "Latvia",
@@ -1193,11 +2558,26 @@
     "categoryy": "GREEN",
     "size": 3.95543586167438,
     "color": "#00dca6",
-    "byCity": {
-      "Dublin": 0.3,
-      "London": 0.6,
-      "Paris": 0.1
-    }
+    "cities": [
+      {
+        "name": "Dublin",
+        "size": 0.3,
+        "x": 0.4,
+        "y": 0.4
+      },
+      {
+        "name": "London",
+        "size": 0.4,
+        "x": 0.6,
+        "y": 0.1
+      },
+      {
+        "name": "Paris",
+        "size": 0.4,
+        "x": 0.6,
+        "y": 0.8
+      }
+    ]
   },
   {
     "name": "Lebanon",
@@ -1206,11 +2586,26 @@
     "categoryy": "YELLOW",
     "size": 4.07689427350833,
     "color": "#fa8c00",
-    "byCity": {
-      "Dublin": 0.3,
-      "London": 0.6,
-      "Paris": 0.1
-    }
+    "cities": [
+      {
+        "name": "Dublin",
+        "size": 0.3,
+        "x": 0.4,
+        "y": 0.4
+      },
+      {
+        "name": "London",
+        "size": 0.4,
+        "x": 0.6,
+        "y": 0.1
+      },
+      {
+        "name": "Paris",
+        "size": 0.4,
+        "x": 0.6,
+        "y": 0.8
+      }
+    ]
   },
   {
     "name": "Lesotho",
@@ -1219,11 +2614,26 @@
     "categoryy": "RED",
     "size": 0.362307409340339,
     "color": "#c71e1d",
-    "byCity": {
-      "Dublin": 0.3,
-      "London": 0.6,
-      "Paris": 0.1
-    }
+    "cities": [
+      {
+        "name": "Dublin",
+        "size": 0.3,
+        "x": 0.4,
+        "y": 0.4
+      },
+      {
+        "name": "London",
+        "size": 0.4,
+        "x": 0.6,
+        "y": 0.1
+      },
+      {
+        "name": "Paris",
+        "size": 0.4,
+        "x": 0.6,
+        "y": 0.8
+      }
+    ]
   },
   {
     "name": "Liberia",
@@ -1232,11 +2642,26 @@
     "categoryy": "RED",
     "size": 0.238993430019259,
     "color": "#c71e1d",
-    "byCity": {
-      "Dublin": 0.3,
-      "London": 0.6,
-      "Paris": 0.1
-    }
+    "cities": [
+      {
+        "name": "Dublin",
+        "size": 0.3,
+        "x": 0.4,
+        "y": 0.4
+      },
+      {
+        "name": "London",
+        "size": 0.4,
+        "x": 0.6,
+        "y": 0.1
+      },
+      {
+        "name": "Paris",
+        "size": 0.4,
+        "x": 0.6,
+        "y": 0.8
+      }
+    ]
   },
   {
     "name": "Libyan Arab Jamahiriya",
@@ -1245,11 +2670,26 @@
     "categoryy": "RED",
     "size": 8.38072934435112,
     "color": "#c71e1d",
-    "byCity": {
-      "Dublin": 0.3,
-      "London": 0.6,
-      "Paris": 0.1
-    }
+    "cities": [
+      {
+        "name": "Dublin",
+        "size": 0.3,
+        "x": 0.4,
+        "y": 0.4
+      },
+      {
+        "name": "London",
+        "size": 0.4,
+        "x": 0.6,
+        "y": 0.1
+      },
+      {
+        "name": "Paris",
+        "size": 0.4,
+        "x": 0.6,
+        "y": 0.8
+      }
+    ]
   },
   {
     "name": "Lithuania",
@@ -1258,11 +2698,26 @@
     "categoryy": "GREEN",
     "size": 4.19807602212644,
     "color": "#00dca6",
-    "byCity": {
-      "Dublin": 0.3,
-      "London": 0.6,
-      "Paris": 0.1
-    }
+    "cities": [
+      {
+        "name": "Dublin",
+        "size": 0.3,
+        "x": 0.4,
+        "y": 0.4
+      },
+      {
+        "name": "London",
+        "size": 0.4,
+        "x": 0.6,
+        "y": 0.1
+      },
+      {
+        "name": "Paris",
+        "size": 0.4,
+        "x": 0.6,
+        "y": 0.8
+      }
+    ]
   },
   {
     "name": "Luxembourg",
@@ -1271,11 +2726,26 @@
     "categoryy": "GREEN",
     "size": 15.3064265559542,
     "color": "#00dca6",
-    "byCity": {
-      "Dublin": 0.3,
-      "London": 0.6,
-      "Paris": 0.1
-    }
+    "cities": [
+      {
+        "name": "Dublin",
+        "size": 0.3,
+        "x": 0.4,
+        "y": 0.4
+      },
+      {
+        "name": "London",
+        "size": 0.4,
+        "x": 0.6,
+        "y": 0.1
+      },
+      {
+        "name": "Paris",
+        "size": 0.4,
+        "x": 0.6,
+        "y": 0.8
+      }
+    ]
   },
   {
     "name": "Macedonia",
@@ -1284,11 +2754,26 @@
     "categoryy": "GREEN",
     "size": 3.99673721344351,
     "color": "#00dca6",
-    "byCity": {
-      "Dublin": 0.3,
-      "London": 0.6,
-      "Paris": 0.1
-    }
+    "cities": [
+      {
+        "name": "Dublin",
+        "size": 0.3,
+        "x": 0.4,
+        "y": 0.4
+      },
+      {
+        "name": "London",
+        "size": 0.4,
+        "x": 0.6,
+        "y": 0.1
+      },
+      {
+        "name": "Paris",
+        "size": 0.4,
+        "x": 0.6,
+        "y": 0.8
+      }
+    ]
   },
   {
     "name": "Madagascar",
@@ -1297,11 +2782,26 @@
     "categoryy": "RED",
     "size": 0.152766255296265,
     "color": "#c71e1d",
-    "byCity": {
-      "Dublin": 0.3,
-      "London": 0.6,
-      "Paris": 0.1
-    }
+    "cities": [
+      {
+        "name": "Dublin",
+        "size": 0.3,
+        "x": 0.4,
+        "y": 0.4
+      },
+      {
+        "name": "London",
+        "size": 0.4,
+        "x": 0.6,
+        "y": 0.1
+      },
+      {
+        "name": "Paris",
+        "size": 0.4,
+        "x": 0.6,
+        "y": 0.8
+      }
+    ]
   },
   {
     "name": "Malawi",
@@ -1310,11 +2810,26 @@
     "categoryy": "RED",
     "size": 0.0778366839170854,
     "color": "#c71e1d",
-    "byCity": {
-      "Dublin": 0.3,
-      "London": 0.6,
-      "Paris": 0.1
-    }
+    "cities": [
+      {
+        "name": "Dublin",
+        "size": 0.3,
+        "x": 0.4,
+        "y": 0.4
+      },
+      {
+        "name": "London",
+        "size": 0.4,
+        "x": 0.6,
+        "y": 0.1
+      },
+      {
+        "name": "Paris",
+        "size": 0.4,
+        "x": 0.6,
+        "y": 0.8
+      }
+    ]
   },
   {
     "name": "Malaysia",
@@ -1323,11 +2838,26 @@
     "categoryy": "GREEN",
     "size": 7.92712603743521,
     "color": "#00dca6",
-    "byCity": {
-      "Dublin": 0.3,
-      "London": 0.6,
-      "Paris": 0.1
-    }
+    "cities": [
+      {
+        "name": "Dublin",
+        "size": 0.3,
+        "x": 0.4,
+        "y": 0.4
+      },
+      {
+        "name": "London",
+        "size": 0.4,
+        "x": 0.6,
+        "y": 0.1
+      },
+      {
+        "name": "Paris",
+        "size": 0.4,
+        "x": 0.6,
+        "y": 0.8
+      }
+    ]
   },
   {
     "name": "Maldives",
@@ -1336,11 +2866,26 @@
     "categoryy": "BLUE",
     "size": 3.97395626217534,
     "color": "#18a1cd",
-    "byCity": {
-      "Dublin": 0.3,
-      "London": 0.6,
-      "Paris": 0.1
-    }
+    "cities": [
+      {
+        "name": "Dublin",
+        "size": 0.3,
+        "x": 0.4,
+        "y": 0.4
+      },
+      {
+        "name": "London",
+        "size": 0.4,
+        "x": 0.6,
+        "y": 0.1
+      },
+      {
+        "name": "Paris",
+        "size": 0.4,
+        "x": 0.6,
+        "y": 0.8
+      }
+    ]
   },
   {
     "name": "Mali",
@@ -1349,11 +2894,26 @@
     "categoryy": "RED",
     "size": 0.29657101956316,
     "color": "#c71e1d",
-    "byCity": {
-      "Dublin": 0.3,
-      "London": 0.6,
-      "Paris": 0.1
-    }
+    "cities": [
+      {
+        "name": "Dublin",
+        "size": 0.3,
+        "x": 0.4,
+        "y": 0.4
+      },
+      {
+        "name": "London",
+        "size": 0.4,
+        "x": 0.6,
+        "y": 0.1
+      },
+      {
+        "name": "Paris",
+        "size": 0.4,
+        "x": 0.6,
+        "y": 0.8
+      }
+    ]
   },
   {
     "name": "Malta",
@@ -1362,11 +2922,26 @@
     "categoryy": "GREEN",
     "size": 3.29324560594014,
     "color": "#00dca6",
-    "byCity": {
-      "Dublin": 0.3,
-      "London": 0.6,
-      "Paris": 0.1
-    }
+    "cities": [
+      {
+        "name": "Dublin",
+        "size": 0.3,
+        "x": 0.4,
+        "y": 0.4
+      },
+      {
+        "name": "London",
+        "size": 0.4,
+        "x": 0.6,
+        "y": 0.1
+      },
+      {
+        "name": "Paris",
+        "size": 0.4,
+        "x": 0.6,
+        "y": 0.8
+      }
+    ]
   },
   {
     "name": "Mauritania",
@@ -1375,11 +2950,26 @@
     "categoryy": "RED",
     "size": 0.872793555310964,
     "color": "#c71e1d",
-    "byCity": {
-      "Dublin": 0.3,
-      "London": 0.6,
-      "Paris": 0.1
-    }
+    "cities": [
+      {
+        "name": "Dublin",
+        "size": 0.3,
+        "x": 0.4,
+        "y": 0.4
+      },
+      {
+        "name": "London",
+        "size": 0.4,
+        "x": 0.6,
+        "y": 0.1
+      },
+      {
+        "name": "Paris",
+        "size": 0.4,
+        "x": 0.6,
+        "y": 0.8
+      }
+    ]
   },
   {
     "name": "Mauritius",
@@ -1388,11 +2978,26 @@
     "categoryy": "GREEN",
     "size": 3.29459100560393,
     "color": "#00dca6",
-    "byCity": {
-      "Dublin": 0.3,
-      "London": 0.6,
-      "Paris": 0.1
-    }
+    "cities": [
+      {
+        "name": "Dublin",
+        "size": 0.3,
+        "x": 0.4,
+        "y": 0.4
+      },
+      {
+        "name": "London",
+        "size": 0.4,
+        "x": 0.6,
+        "y": 0.1
+      },
+      {
+        "name": "Paris",
+        "size": 0.4,
+        "x": 0.6,
+        "y": 0.8
+      }
+    ]
   },
   {
     "name": "Mexico",
@@ -1401,11 +3006,26 @@
     "categoryy": "YELLOW",
     "size": 3.52160004771504,
     "color": "#fa8c00",
-    "byCity": {
-      "Dublin": 0.3,
-      "London": 0.6,
-      "Paris": 0.1
-    }
+    "cities": [
+      {
+        "name": "Dublin",
+        "size": 0.3,
+        "x": 0.4,
+        "y": 0.4
+      },
+      {
+        "name": "London",
+        "size": 0.4,
+        "x": 0.6,
+        "y": 0.1
+      },
+      {
+        "name": "Paris",
+        "size": 0.4,
+        "x": 0.6,
+        "y": 0.8
+      }
+    ]
   },
   {
     "name": "Micronesia",
@@ -1414,11 +3034,26 @@
     "categoryy": "RED",
     "size": 1.58156950692426,
     "color": "#c71e1d",
-    "byCity": {
-      "Dublin": 0.3,
-      "London": 0.6,
-      "Paris": 0.1
-    }
+    "cities": [
+      {
+        "name": "Dublin",
+        "size": 0.3,
+        "x": 0.4,
+        "y": 0.4
+      },
+      {
+        "name": "London",
+        "size": 0.4,
+        "x": 0.6,
+        "y": 0.1
+      },
+      {
+        "name": "Paris",
+        "size": 0.4,
+        "x": 0.6,
+        "y": 0.8
+      }
+    ]
   },
   {
     "name": "Moldova",
@@ -1427,11 +3062,26 @@
     "categoryy": "GREEN",
     "size": 3.32461016755783,
     "color": "#00dca6",
-    "byCity": {
-      "Dublin": 0.3,
-      "London": 0.6,
-      "Paris": 0.1
-    }
+    "cities": [
+      {
+        "name": "Dublin",
+        "size": 0.3,
+        "x": 0.4,
+        "y": 0.4
+      },
+      {
+        "name": "London",
+        "size": 0.4,
+        "x": 0.6,
+        "y": 0.1
+      },
+      {
+        "name": "Paris",
+        "size": 0.4,
+        "x": 0.6,
+        "y": 0.8
+      }
+    ]
   },
   {
     "name": "Mongolia",
@@ -1440,11 +3090,26 @@
     "categoryy": "GREEN",
     "size": 7.15312008585735,
     "color": "#00dca6",
-    "byCity": {
-      "Dublin": 0.3,
-      "London": 0.6,
-      "Paris": 0.1
-    }
+    "cities": [
+      {
+        "name": "Dublin",
+        "size": 0.3,
+        "x": 0.4,
+        "y": 0.4
+      },
+      {
+        "name": "London",
+        "size": 0.4,
+        "x": 0.6,
+        "y": 0.1
+      },
+      {
+        "name": "Paris",
+        "size": 0.4,
+        "x": 0.6,
+        "y": 0.8
+      }
+    ]
   },
   {
     "name": "Montenegro",
@@ -1453,11 +3118,26 @@
     "categoryy": "GREEN",
     "size": 4.17987599373753,
     "color": "#00dca6",
-    "byCity": {
-      "Dublin": 0.3,
-      "London": 0.6,
-      "Paris": 0.1
-    }
+    "cities": [
+      {
+        "name": "Dublin",
+        "size": 0.3,
+        "x": 0.4,
+        "y": 0.4
+      },
+      {
+        "name": "London",
+        "size": 0.4,
+        "x": 0.6,
+        "y": 0.1
+      },
+      {
+        "name": "Paris",
+        "size": 0.4,
+        "x": 0.6,
+        "y": 0.8
+      }
+    ]
   },
   {
     "name": "Morocco",
@@ -1466,11 +3146,26 @@
     "categoryy": "GREEN",
     "size": 1.95987228468546,
     "color": "#00dca6",
-    "byCity": {
-      "Dublin": 0.3,
-      "London": 0.6,
-      "Paris": 0.1
-    }
+    "cities": [
+      {
+        "name": "Dublin",
+        "size": 0.3,
+        "x": 0.4,
+        "y": 0.4
+      },
+      {
+        "name": "London",
+        "size": 0.4,
+        "x": 0.6,
+        "y": 0.1
+      },
+      {
+        "name": "Paris",
+        "size": 0.4,
+        "x": 0.6,
+        "y": 0.8
+      }
+    ]
   },
   {
     "name": "Mozambique",
@@ -1479,11 +3174,26 @@
     "categoryy": "RED",
     "size": 0.246986411762639,
     "color": "#c71e1d",
-    "byCity": {
-      "Dublin": 0.3,
-      "London": 0.6,
-      "Paris": 0.1
-    }
+    "cities": [
+      {
+        "name": "Dublin",
+        "size": 0.3,
+        "x": 0.4,
+        "y": 0.4
+      },
+      {
+        "name": "London",
+        "size": 0.4,
+        "x": 0.6,
+        "y": 0.1
+      },
+      {
+        "name": "Paris",
+        "size": 0.4,
+        "x": 0.6,
+        "y": 0.8
+      }
+    ]
   },
   {
     "name": "Myanmar",
@@ -1492,11 +3202,26 @@
     "categoryy": "RED",
     "size": 0.679428522562061,
     "color": "#c71e1d",
-    "byCity": {
-      "Dublin": 0.3,
-      "London": 0.6,
-      "Paris": 0.1
-    }
+    "cities": [
+      {
+        "name": "Dublin",
+        "size": 0.3,
+        "x": 0.4,
+        "y": 0.4
+      },
+      {
+        "name": "London",
+        "size": 0.4,
+        "x": 0.6,
+        "y": 0.1
+      },
+      {
+        "name": "Paris",
+        "size": 0.4,
+        "x": 0.6,
+        "y": 0.8
+      }
+    ]
   },
   {
     "name": "Namibia",
@@ -1505,11 +3230,26 @@
     "categoryy": "RED",
     "size": 1.69170542764537,
     "color": "#c71e1d",
-    "byCity": {
-      "Dublin": 0.3,
-      "London": 0.6,
-      "Paris": 0.1
-    }
+    "cities": [
+      {
+        "name": "Dublin",
+        "size": 0.3,
+        "x": 0.4,
+        "y": 0.4
+      },
+      {
+        "name": "London",
+        "size": 0.4,
+        "x": 0.6,
+        "y": 0.1
+      },
+      {
+        "name": "Paris",
+        "size": 0.4,
+        "x": 0.6,
+        "y": 0.8
+      }
+    ]
   },
   {
     "name": "Nepal",
@@ -1518,11 +3258,26 @@
     "categoryy": "RED",
     "size": 0.470136453499051,
     "color": "#c71e1d",
-    "byCity": {
-      "Dublin": 0.3,
-      "London": 0.6,
-      "Paris": 0.1
-    }
+    "cities": [
+      {
+        "name": "Dublin",
+        "size": 0.3,
+        "x": 0.4,
+        "y": 0.4
+      },
+      {
+        "name": "London",
+        "size": 0.4,
+        "x": 0.6,
+        "y": 0.1
+      },
+      {
+        "name": "Paris",
+        "size": 0.4,
+        "x": 0.6,
+        "y": 0.8
+      }
+    ]
   },
   {
     "name": "Netherlands",
@@ -1531,11 +3286,26 @@
     "categoryy": "GREEN",
     "size": 8.43707462722941,
     "color": "#00dca6",
-    "byCity": {
-      "Dublin": 0.3,
-      "London": 0.6,
-      "Paris": 0.1
-    }
+    "cities": [
+      {
+        "name": "Dublin",
+        "size": 0.3,
+        "x": 0.4,
+        "y": 0.4
+      },
+      {
+        "name": "London",
+        "size": 0.4,
+        "x": 0.6,
+        "y": 0.1
+      },
+      {
+        "name": "Paris",
+        "size": 0.4,
+        "x": 0.6,
+        "y": 0.8
+      }
+    ]
   },
   {
     "name": "New Zealand",
@@ -1544,11 +3314,26 @@
     "categoryy": "GREEN",
     "size": 6.83041418732592,
     "color": "#00dca6",
-    "byCity": {
-      "Dublin": 0.3,
-      "London": 0.6,
-      "Paris": 0.1
-    }
+    "cities": [
+      {
+        "name": "Dublin",
+        "size": 0.3,
+        "x": 0.4,
+        "y": 0.4
+      },
+      {
+        "name": "London",
+        "size": 0.4,
+        "x": 0.6,
+        "y": 0.1
+      },
+      {
+        "name": "Paris",
+        "size": 0.4,
+        "x": 0.6,
+        "y": 0.8
+      }
+    ]
   },
   {
     "name": "Nicaragua",
@@ -1557,11 +3342,26 @@
     "categoryy": "RED",
     "size": 0.80054959429675,
     "color": "#c71e1d",
-    "byCity": {
-      "Dublin": 0.3,
-      "London": 0.6,
-      "Paris": 0.1
-    }
+    "cities": [
+      {
+        "name": "Dublin",
+        "size": 0.3,
+        "x": 0.4,
+        "y": 0.4
+      },
+      {
+        "name": "London",
+        "size": 0.4,
+        "x": 0.6,
+        "y": 0.1
+      },
+      {
+        "name": "Paris",
+        "size": 0.4,
+        "x": 0.6,
+        "y": 0.8
+      }
+    ]
   },
   {
     "name": "Niger",
@@ -1570,11 +3370,26 @@
     "categoryy": "RED",
     "size": 0.0922322514104962,
     "color": "#c71e1d",
-    "byCity": {
-      "Dublin": 0.3,
-      "London": 0.6,
-      "Paris": 0.1
-    }
+    "cities": [
+      {
+        "name": "Dublin",
+        "size": 0.3,
+        "x": 0.4,
+        "y": 0.4
+      },
+      {
+        "name": "London",
+        "size": 0.4,
+        "x": 0.6,
+        "y": 0.1
+      },
+      {
+        "name": "Paris",
+        "size": 0.4,
+        "x": 0.6,
+        "y": 0.8
+      }
+    ]
   },
   {
     "name": "Nigeria",
@@ -1583,11 +3398,26 @@
     "categoryy": "RED",
     "size": 0.573636206051187,
     "color": "#c71e1d",
-    "byCity": {
-      "Dublin": 0.3,
-      "London": 0.6,
-      "Paris": 0.1
-    }
+    "cities": [
+      {
+        "name": "Dublin",
+        "size": 0.3,
+        "x": 0.4,
+        "y": 0.4
+      },
+      {
+        "name": "London",
+        "size": 0.4,
+        "x": 0.6,
+        "y": 0.1
+      },
+      {
+        "name": "Paris",
+        "size": 0.4,
+        "x": 0.6,
+        "y": 0.8
+      }
+    ]
   },
   {
     "name": "Norway",
@@ -1597,11 +3427,26 @@
     "size": 6.7222699848575,
     "color": "#00dca6",
     "annotation": "top",
-    "byCity": {
-      "New York": 0.3,
-      "California": 0.2,
-      "Texas": 0.5
-    }
+    "cities": [
+      {
+        "name": "New York",
+        "size": 0.3,
+        "x": 0.7,
+        "y": 0.8
+      },
+      {
+        "name": "California",
+        "size": 0.2,
+        "x": 0.6,
+        "y": 0.4
+      },
+      {
+        "name": "Texas",
+        "size": 0.5,
+        "x": 0.3,
+        "y": 0.5
+      }
+    ]
   },
   {
     "name": "Oman",
@@ -1610,11 +3455,26 @@
     "categoryy": "GREEN",
     "size": 15.2824363897061,
     "color": "#00dca6",
-    "byCity": {
-      "New York": 0.3,
-      "California": 0.2,
-      "Texas": 0.5
-    }
+    "cities": [
+      {
+        "name": "New York",
+        "size": 0.3,
+        "x": 0.7,
+        "y": 0.8
+      },
+      {
+        "name": "California",
+        "size": 0.2,
+        "x": 0.6,
+        "y": 0.4
+      },
+      {
+        "name": "Texas",
+        "size": 0.5,
+        "x": 0.3,
+        "y": 0.5
+      }
+    ]
   },
   {
     "name": "Pakistan",
@@ -1623,11 +3483,26 @@
     "categoryy": "RED",
     "size": 0.879965499388893,
     "color": "#c71e1d",
-    "byCity": {
-      "New York": 0.3,
-      "California": 0.2,
-      "Texas": 0.5
-    }
+    "cities": [
+      {
+        "name": "New York",
+        "size": 0.3,
+        "x": 0.7,
+        "y": 0.8
+      },
+      {
+        "name": "California",
+        "size": 0.2,
+        "x": 0.6,
+        "y": 0.4
+      },
+      {
+        "name": "Texas",
+        "size": 0.5,
+        "x": 0.3,
+        "y": 0.5
+      }
+    ]
   },
   {
     "name": "Panama",
@@ -1636,11 +3511,26 @@
     "categoryy": "YELLOW",
     "size": 3.1414549958525,
     "color": "#fa8c00",
-    "byCity": {
-      "New York": 0.3,
-      "California": 0.2,
-      "Texas": 0.5
-    }
+    "cities": [
+      {
+        "name": "New York",
+        "size": 0.3,
+        "x": 0.7,
+        "y": 0.8
+      },
+      {
+        "name": "California",
+        "size": 0.2,
+        "x": 0.6,
+        "y": 0.4
+      },
+      {
+        "name": "Texas",
+        "size": 0.5,
+        "x": 0.3,
+        "y": 0.5
+      }
+    ]
   },
   {
     "name": "Papua New Guinea",
@@ -1649,11 +3539,26 @@
     "categoryy": "RED",
     "size": 0.863707513959878,
     "color": "#c71e1d",
-    "byCity": {
-      "New York": 0.3,
-      "California": 0.2,
-      "Texas": 0.5
-    }
+    "cities": [
+      {
+        "name": "New York",
+        "size": 0.3,
+        "x": 0.7,
+        "y": 0.8
+      },
+      {
+        "name": "California",
+        "size": 0.2,
+        "x": 0.6,
+        "y": 0.4
+      },
+      {
+        "name": "Texas",
+        "size": 0.5,
+        "x": 0.3,
+        "y": 0.5
+      }
+    ]
   },
   {
     "name": "Paraguay",
@@ -1662,11 +3567,26 @@
     "categoryy": "YELLOW",
     "size": 1.16542523160477,
     "color": "#fa8c00",
-    "byCity": {
-      "New York": 0.3,
-      "California": 0.2,
-      "Texas": 0.5
-    }
+    "cities": [
+      {
+        "name": "New York",
+        "size": 0.3,
+        "x": 0.7,
+        "y": 0.8
+      },
+      {
+        "name": "California",
+        "size": 0.2,
+        "x": 0.6,
+        "y": 0.4
+      },
+      {
+        "name": "Texas",
+        "size": 0.5,
+        "x": 0.3,
+        "y": 0.5
+      }
+    ]
   },
   {
     "name": "Peru",
@@ -1675,11 +3595,26 @@
     "categoryy": "RED",
     "size": 1.74559192668502,
     "color": "#c71e1d",
-    "byCity": {
-      "New York": 0.3,
-      "California": 0.2,
-      "Texas": 0.5
-    }
+    "cities": [
+      {
+        "name": "New York",
+        "size": 0.3,
+        "x": 0.7,
+        "y": 0.8
+      },
+      {
+        "name": "California",
+        "size": 0.2,
+        "x": 0.6,
+        "y": 0.4
+      },
+      {
+        "name": "Texas",
+        "size": 0.5,
+        "x": 0.3,
+        "y": 0.5
+      }
+    ]
   },
   {
     "name": "Philippines",
@@ -1688,11 +3623,26 @@
     "categoryy": "RED",
     "size": 1.34502905731688,
     "color": "#c71e1d",
-    "byCity": {
-      "New York": 0.3,
-      "California": 0.2,
-      "Texas": 0.5
-    }
+    "cities": [
+      {
+        "name": "New York",
+        "size": 0.3,
+        "x": 0.7,
+        "y": 0.8
+      },
+      {
+        "name": "California",
+        "size": 0.2,
+        "x": 0.6,
+        "y": 0.4
+      },
+      {
+        "name": "Texas",
+        "size": 0.5,
+        "x": 0.3,
+        "y": 0.5
+      }
+    ]
   },
   {
     "name": "Poland",
@@ -1701,11 +3651,26 @@
     "categoryy": "GREEN",
     "size": 7.77364183861292,
     "color": "#00dca6",
-    "byCity": {
-      "New York": 0.3,
-      "California": 0.2,
-      "Texas": 0.5
-    }
+    "cities": [
+      {
+        "name": "New York",
+        "size": 0.3,
+        "x": 0.7,
+        "y": 0.8
+      },
+      {
+        "name": "California",
+        "size": 0.2,
+        "x": 0.6,
+        "y": 0.4
+      },
+      {
+        "name": "Texas",
+        "size": 0.5,
+        "x": 0.3,
+        "y": 0.5
+      }
+    ]
   },
   {
     "name": "Portugal",
@@ -1714,11 +3679,26 @@
     "categoryy": "GREEN",
     "size": 4.33976842606964,
     "color": "#00dca6",
-    "byCity": {
-      "New York": 0.3,
-      "California": 0.2,
-      "Texas": 0.5
-    }
+    "cities": [
+      {
+        "name": "New York",
+        "size": 0.3,
+        "x": 0.7,
+        "y": 0.8
+      },
+      {
+        "name": "California",
+        "size": 0.2,
+        "x": 0.6,
+        "y": 0.4
+      },
+      {
+        "name": "Texas",
+        "size": 0.5,
+        "x": 0.3,
+        "y": 0.5
+      }
+    ]
   },
   {
     "name": "Qatar",
@@ -1728,11 +3708,26 @@
     "size": 32.4744687618012,
     "color": "#00dca6",
     "annotation": "top",
-    "byCity": {
-      "New York": 0.3,
-      "California": 0.2,
-      "Texas": 0.5
-    }
+    "cities": [
+      {
+        "name": "New York",
+        "size": 0.3,
+        "x": 0.7,
+        "y": 0.8
+      },
+      {
+        "name": "California",
+        "size": 0.2,
+        "x": 0.6,
+        "y": 0.4
+      },
+      {
+        "name": "Texas",
+        "size": 0.5,
+        "x": 0.3,
+        "y": 0.5
+      }
+    ]
   },
   {
     "name": "Romania",
@@ -1741,11 +3736,26 @@
     "categoryy": "GREEN",
     "size": 3.81743447683141,
     "color": "#00dca6",
-    "byCity": {
-      "New York": 0.3,
-      "California": 0.2,
-      "Texas": 0.5
-    }
+    "cities": [
+      {
+        "name": "New York",
+        "size": 0.3,
+        "x": 0.7,
+        "y": 0.8
+      },
+      {
+        "name": "California",
+        "size": 0.2,
+        "x": 0.6,
+        "y": 0.4
+      },
+      {
+        "name": "Texas",
+        "size": 0.5,
+        "x": 0.3,
+        "y": 0.5
+      }
+    ]
   },
   {
     "name": "Russia",
@@ -1754,11 +3764,26 @@
     "categoryy": "GREEN",
     "size": 11.7972029330523,
     "color": "#00dca6",
-    "byCity": {
-      "New York": 0.3,
-      "California": 0.2,
-      "Texas": 0.5
-    }
+    "cities": [
+      {
+        "name": "New York",
+        "size": 0.3,
+        "x": 0.7,
+        "y": 0.8
+      },
+      {
+        "name": "California",
+        "size": 0.2,
+        "x": 0.6,
+        "y": 0.4
+      },
+      {
+        "name": "Texas",
+        "size": 0.5,
+        "x": 0.3,
+        "y": 0.5
+      }
+    ]
   },
   {
     "name": "Rwanda",
@@ -1767,11 +3792,26 @@
     "categoryy": "BLUE",
     "size": 0.105330369319572,
     "color": "#18a1cd",
-    "byCity": {
-      "New York": 0.3,
-      "California": 0.2,
-      "Texas": 0.5
-    }
+    "cities": [
+      {
+        "name": "New York",
+        "size": 0.3,
+        "x": 0.7,
+        "y": 0.8
+      },
+      {
+        "name": "California",
+        "size": 0.2,
+        "x": 0.6,
+        "y": 0.4
+      },
+      {
+        "name": "Texas",
+        "size": 0.5,
+        "x": 0.3,
+        "y": 0.5
+      }
+    ]
   },
   {
     "name": "Saint Kitts and Nevis",
@@ -1780,11 +3820,26 @@
     "categoryy": "BLUE",
     "size": 4.73180149146383,
     "color": "#18a1cd",
-    "byCity": {
-      "New York": 0.3,
-      "California": 0.2,
-      "Texas": 0.5
-    }
+    "cities": [
+      {
+        "name": "New York",
+        "size": 0.3,
+        "x": 0.7,
+        "y": 0.8
+      },
+      {
+        "name": "California",
+        "size": 0.2,
+        "x": 0.6,
+        "y": 0.4
+      },
+      {
+        "name": "Texas",
+        "size": 0.5,
+        "x": 0.3,
+        "y": 0.5
+      }
+    ]
   },
   {
     "name": "Saint Lucia",
@@ -1793,11 +3848,26 @@
     "categoryy": "GREEN",
     "size": 2.95412905964426,
     "color": "#00dca6",
-    "byCity": {
-      "New York": 0.3,
-      "California": 0.2,
-      "Texas": 0.5
-    }
+    "cities": [
+      {
+        "name": "New York",
+        "size": 0.3,
+        "x": 0.7,
+        "y": 0.8
+      },
+      {
+        "name": "California",
+        "size": 0.2,
+        "x": 0.6,
+        "y": 0.4
+      },
+      {
+        "name": "Texas",
+        "size": 0.5,
+        "x": 0.3,
+        "y": 0.5
+      }
+    ]
   },
   {
     "name": "Samoa",
@@ -1806,11 +3876,26 @@
     "categoryy": "BLUE",
     "size": 1.52212413389075,
     "color": "#18a1cd",
-    "byCity": {
-      "New York": 0.3,
-      "California": 0.2,
-      "Texas": 0.5
-    }
+    "cities": [
+      {
+        "name": "New York",
+        "size": 0.3,
+        "x": 0.7,
+        "y": 0.8
+      },
+      {
+        "name": "California",
+        "size": 0.2,
+        "x": 0.6,
+        "y": 0.4
+      },
+      {
+        "name": "Texas",
+        "size": 0.5,
+        "x": 0.3,
+        "y": 0.5
+      }
+    ]
   },
   {
     "name": "Sao Tome and Principe",
@@ -1819,11 +3904,26 @@
     "categoryy": "RED",
     "size": 0.697518721217886,
     "color": "#c71e1d",
-    "byCity": {
-      "New York": 0.3,
-      "California": 0.2,
-      "Texas": 0.5
-    }
+    "cities": [
+      {
+        "name": "New York",
+        "size": 0.3,
+        "x": 0.7,
+        "y": 0.8
+      },
+      {
+        "name": "California",
+        "size": 0.2,
+        "x": 0.6,
+        "y": 0.4
+      },
+      {
+        "name": "Texas",
+        "size": 0.5,
+        "x": 0.3,
+        "y": 0.5
+      }
+    ]
   },
   {
     "name": "Saudi Arabia",
@@ -1832,11 +3932,26 @@
     "categoryy": "GREEN",
     "size": 15.2845787251876,
     "color": "#00dca6",
-    "byCity": {
-      "New York": 0.3,
-      "California": 0.2,
-      "Texas": 0.5
-    }
+    "cities": [
+      {
+        "name": "New York",
+        "size": 0.3,
+        "x": 0.7,
+        "y": 0.8
+      },
+      {
+        "name": "California",
+        "size": 0.2,
+        "x": 0.6,
+        "y": 0.4
+      },
+      {
+        "name": "Texas",
+        "size": 0.5,
+        "x": 0.3,
+        "y": 0.5
+      }
+    ]
   },
   {
     "name": "Senegal",
@@ -1845,11 +3960,26 @@
     "categoryy": "RED",
     "size": 0.651679183707327,
     "color": "#c71e1d",
-    "byCity": {
-      "New York": 0.3,
-      "California": 0.2,
-      "Texas": 0.5
-    }
+    "cities": [
+      {
+        "name": "New York",
+        "size": 0.3,
+        "x": 0.7,
+        "y": 0.8
+      },
+      {
+        "name": "California",
+        "size": 0.2,
+        "x": 0.6,
+        "y": 0.4
+      },
+      {
+        "name": "Texas",
+        "size": 0.5,
+        "x": 0.3,
+        "y": 0.5
+      }
+    ]
   },
   {
     "name": "Serbia",
@@ -1858,11 +3988,26 @@
     "categoryy": "BLUE",
     "size": 6.61604693907974,
     "color": "#18a1cd",
-    "byCity": {
-      "New York": 0.3,
-      "California": 0.2,
-      "Texas": 0.5
-    }
+    "cities": [
+      {
+        "name": "New York",
+        "size": 0.3,
+        "x": 0.7,
+        "y": 0.8
+      },
+      {
+        "name": "California",
+        "size": 0.2,
+        "x": 0.6,
+        "y": 0.4
+      },
+      {
+        "name": "Texas",
+        "size": 0.5,
+        "x": 0.3,
+        "y": 0.5
+      }
+    ]
   },
   {
     "name": "Seychelles",
@@ -1871,11 +4016,26 @@
     "categoryy": "BLUE",
     "size": 6.24839963436737,
     "color": "#18a1cd",
-    "byCity": {
-      "New York": 0.3,
-      "California": 0.2,
-      "Texas": 0.5
-    }
+    "cities": [
+      {
+        "name": "New York",
+        "size": 0.3,
+        "x": 0.7,
+        "y": 0.8
+      },
+      {
+        "name": "California",
+        "size": 0.2,
+        "x": 0.6,
+        "y": 0.4
+      },
+      {
+        "name": "Texas",
+        "size": 0.5,
+        "x": 0.3,
+        "y": 0.5
+      }
+    ]
   },
   {
     "name": "Sierra Leone",
@@ -1884,11 +4044,26 @@
     "categoryy": "RED",
     "size": 0.115189572752666,
     "color": "#c71e1d",
-    "byCity": {
-      "New York": 0.3,
-      "California": 0.2,
-      "Texas": 0.5
-    }
+    "cities": [
+      {
+        "name": "New York",
+        "size": 0.3,
+        "x": 0.7,
+        "y": 0.8
+      },
+      {
+        "name": "California",
+        "size": 0.2,
+        "x": 0.6,
+        "y": 0.4
+      },
+      {
+        "name": "Texas",
+        "size": 0.5,
+        "x": 0.3,
+        "y": 0.5
+      }
+    ]
   },
   {
     "name": "Singapore",
@@ -1898,11 +4073,26 @@
     "size": 8.30707949147546,
     "color": "#00dca6",
     "annotation": "right",
-    "byCity": {
-      "New York": 0.3,
-      "California": 0.2,
-      "Texas": 0.5
-    }
+    "cities": [
+      {
+        "name": "New York",
+        "size": 0.3,
+        "x": 0.7,
+        "y": 0.8
+      },
+      {
+        "name": "California",
+        "size": 0.2,
+        "x": 0.6,
+        "y": 0.4
+      },
+      {
+        "name": "Texas",
+        "size": 0.5,
+        "x": 0.3,
+        "y": 0.5
+      }
+    ]
   },
   {
     "name": "Slovakia",
@@ -1911,11 +4101,26 @@
     "categoryy": "GREEN",
     "size": 5.69841625532024,
     "color": "#00dca6",
-    "byCity": {
-      "New York": 0.3,
-      "California": 0.2,
-      "Texas": 0.5
-    }
+    "cities": [
+      {
+        "name": "New York",
+        "size": 0.3,
+        "x": 0.7,
+        "y": 0.8
+      },
+      {
+        "name": "California",
+        "size": 0.2,
+        "x": 0.6,
+        "y": 0.4
+      },
+      {
+        "name": "Texas",
+        "size": 0.5,
+        "x": 0.3,
+        "y": 0.5
+      }
+    ]
   },
   {
     "name": "Slovenia",
@@ -1924,11 +4129,26 @@
     "categoryy": "GREEN",
     "size": 6.51220937780615,
     "color": "#00dca6",
-    "byCity": {
-      "New York": 0.3,
-      "California": 0.2,
-      "Texas": 0.5
-    }
+    "cities": [
+      {
+        "name": "New York",
+        "size": 0.3,
+        "x": 0.7,
+        "y": 0.8
+      },
+      {
+        "name": "California",
+        "size": 0.2,
+        "x": 0.6,
+        "y": 0.4
+      },
+      {
+        "name": "Texas",
+        "size": 0.5,
+        "x": 0.3,
+        "y": 0.5
+      }
+    ]
   },
   {
     "name": "Solomon Islands",
@@ -1937,11 +4157,26 @@
     "categoryy": "BLUE",
     "size": 0.537457043456558,
     "color": "#18a1cd",
-    "byCity": {
-      "New York": 0.3,
-      "California": 0.2,
-      "Texas": 0.5
-    }
+    "cities": [
+      {
+        "name": "New York",
+        "size": 0.3,
+        "x": 0.7,
+        "y": 0.8
+      },
+      {
+        "name": "California",
+        "size": 0.2,
+        "x": 0.6,
+        "y": 0.4
+      },
+      {
+        "name": "Texas",
+        "size": 0.5,
+        "x": 0.3,
+        "y": 0.5
+      }
+    ]
   },
   {
     "name": "Somalia",
@@ -1951,11 +4186,26 @@
     "size": 0.0446807095514156,
     "color": "#c71e1d",
     "annotation": "top",
-    "byCity": {
-      "New York": 0.3,
-      "California": 0.2,
-      "Texas": 0.5
-    }
+    "cities": [
+      {
+        "name": "New York",
+        "size": 0.3,
+        "x": 0.7,
+        "y": 0.8
+      },
+      {
+        "name": "California",
+        "size": 0.2,
+        "x": 0.6,
+        "y": 0.4
+      },
+      {
+        "name": "Texas",
+        "size": 0.5,
+        "x": 0.3,
+        "y": 0.5
+      }
+    ]
   },
   {
     "name": "South Africa",
@@ -1964,11 +4214,26 @@
     "categoryy": "YELLOW",
     "size": 7.5077360921292,
     "color": "#fa8c00",
-    "byCity": {
-      "New York": 0.3,
-      "California": 0.2,
-      "Texas": 0.5
-    }
+    "cities": [
+      {
+        "name": "New York",
+        "size": 0.3,
+        "x": 0.7,
+        "y": 0.8
+      },
+      {
+        "name": "California",
+        "size": 0.2,
+        "x": 0.6,
+        "y": 0.4
+      },
+      {
+        "name": "Texas",
+        "size": 0.5,
+        "x": 0.3,
+        "y": 0.5
+      }
+    ]
   },
   {
     "name": "Spain",
@@ -1977,11 +4242,26 @@
     "categoryy": "GREEN",
     "size": 5.09135092007508,
     "color": "#00dca6",
-    "byCity": {
-      "New York": 0.3,
-      "California": 0.2,
-      "Texas": 0.5
-    }
+    "cities": [
+      {
+        "name": "New York",
+        "size": 0.3,
+        "x": 0.7,
+        "y": 0.8
+      },
+      {
+        "name": "California",
+        "size": 0.2,
+        "x": 0.6,
+        "y": 0.4
+      },
+      {
+        "name": "Texas",
+        "size": 0.5,
+        "x": 0.3,
+        "y": 0.5
+      }
+    ]
   },
   {
     "name": "Sri Lanka",
@@ -1990,11 +4270,26 @@
     "categoryy": "RED",
     "size": 1.09067562659476,
     "color": "#c71e1d",
-    "byCity": {
-      "New York": 0.3,
-      "California": 0.2,
-      "Texas": 0.5
-    }
+    "cities": [
+      {
+        "name": "New York",
+        "size": 0.3,
+        "x": 0.7,
+        "y": 0.8
+      },
+      {
+        "name": "California",
+        "size": 0.2,
+        "x": 0.6,
+        "y": 0.4
+      },
+      {
+        "name": "Texas",
+        "size": 0.5,
+        "x": 0.3,
+        "y": 0.5
+      }
+    ]
   },
   {
     "name": "Sudan",
@@ -2004,11 +4299,26 @@
     "size": 0.481626765087475,
     "color": "#c71e1d",
     "annotation": "right",
-    "byCity": {
-      "New York": 0.3,
-      "California": 0.2,
-      "Texas": 0.5
-    }
+    "cities": [
+      {
+        "name": "New York",
+        "size": 0.3,
+        "x": 0.7,
+        "y": 0.8
+      },
+      {
+        "name": "California",
+        "size": 0.2,
+        "x": 0.6,
+        "y": 0.4
+      },
+      {
+        "name": "Texas",
+        "size": 0.5,
+        "x": 0.3,
+        "y": 0.5
+      }
+    ]
   },
   {
     "name": "Suriname",
@@ -2017,11 +4327,26 @@
     "categoryy": "YELLOW",
     "size": 4.55825378527259,
     "color": "#fa8c00",
-    "byCity": {
-      "New York": 0.3,
-      "California": 0.2,
-      "Texas": 0.5
-    }
+    "cities": [
+      {
+        "name": "New York",
+        "size": 0.3,
+        "x": 0.7,
+        "y": 0.8
+      },
+      {
+        "name": "California",
+        "size": 0.2,
+        "x": 0.6,
+        "y": 0.4
+      },
+      {
+        "name": "Texas",
+        "size": 0.5,
+        "x": 0.3,
+        "y": 0.5
+      }
+    ]
   },
   {
     "name": "Swaziland",
@@ -2030,11 +4355,26 @@
     "categoryy": "RED",
     "size": 0.836140045223269,
     "color": "#c71e1d",
-    "byCity": {
-      "New York": 0.3,
-      "California": 0.2,
-      "Texas": 0.5
-    }
+    "cities": [
+      {
+        "name": "New York",
+        "size": 0.3,
+        "x": 0.7,
+        "y": 0.8
+      },
+      {
+        "name": "California",
+        "size": 0.2,
+        "x": 0.6,
+        "y": 0.4
+      },
+      {
+        "name": "Texas",
+        "size": 0.5,
+        "x": 0.3,
+        "y": 0.5
+      }
+    ]
   },
   {
     "name": "Sweden",
@@ -2043,11 +4383,26 @@
     "categoryy": "GREEN",
     "size": 3.4050379189887,
     "color": "#00dca6",
-    "byCity": {
-      "New York": 0.3,
-      "California": 0.2,
-      "Texas": 0.5
-    }
+    "cities": [
+      {
+        "name": "New York",
+        "size": 0.3,
+        "x": 0.7,
+        "y": 0.8
+      },
+      {
+        "name": "California",
+        "size": 0.2,
+        "x": 0.6,
+        "y": 0.4
+      },
+      {
+        "name": "Texas",
+        "size": 0.5,
+        "x": 0.3,
+        "y": 0.5
+      }
+    ]
   },
   {
     "name": "Switzerland",
@@ -2056,11 +4411,26 @@
     "categoryy": "GREEN",
     "size": 4.35904146198319,
     "color": "#00dca6",
-    "byCity": {
-      "New York": 0.3,
-      "California": 0.2,
-      "Texas": 0.5
-    }
+    "cities": [
+      {
+        "name": "New York",
+        "size": 0.3,
+        "x": 0.7,
+        "y": 0.8
+      },
+      {
+        "name": "California",
+        "size": 0.2,
+        "x": 0.6,
+        "y": 0.4
+      },
+      {
+        "name": "Texas",
+        "size": 0.5,
+        "x": 0.3,
+        "y": 0.5
+      }
+    ]
   },
   {
     "name": "Syrian Arab Republic",
@@ -2069,11 +4439,26 @@
     "categoryy": "RED",
     "size": 1.50613944194882,
     "color": "#c71e1d",
-    "byCity": {
-      "New York": 0.3,
-      "California": 0.2,
-      "Texas": 0.5
-    }
+    "cities": [
+      {
+        "name": "New York",
+        "size": 0.3,
+        "x": 0.7,
+        "y": 0.8
+      },
+      {
+        "name": "California",
+        "size": 0.2,
+        "x": 0.6,
+        "y": 0.4
+      },
+      {
+        "name": "Texas",
+        "size": 0.5,
+        "x": 0.3,
+        "y": 0.5
+      }
+    ]
   },
   {
     "name": "Tajikistan",
@@ -2082,11 +4467,26 @@
     "categoryy": "YELLOW",
     "size": 1.01061869242185,
     "color": "#fa8c00",
-    "byCity": {
-      "New York": 0.3,
-      "California": 0.2,
-      "Texas": 0.5
-    }
+    "cities": [
+      {
+        "name": "New York",
+        "size": 0.3,
+        "x": 0.7,
+        "y": 0.8
+      },
+      {
+        "name": "California",
+        "size": 0.2,
+        "x": 0.6,
+        "y": 0.4
+      },
+      {
+        "name": "Texas",
+        "size": 0.5,
+        "x": 0.3,
+        "y": 0.5
+      }
+    ]
   },
   {
     "name": "Tanzania",
@@ -2095,11 +4495,26 @@
     "categoryy": "RED",
     "size": 0.214634960133583,
     "color": "#c71e1d",
-    "byCity": {
-      "New York": 0.3,
-      "California": 0.2,
-      "Texas": 0.5
-    }
+    "cities": [
+      {
+        "name": "New York",
+        "size": 0.3,
+        "x": 0.7,
+        "y": 0.8
+      },
+      {
+        "name": "California",
+        "size": 0.2,
+        "x": 0.6,
+        "y": 0.4
+      },
+      {
+        "name": "Texas",
+        "size": 0.5,
+        "x": 0.3,
+        "y": 0.5
+      }
+    ]
   },
   {
     "name": "Thailand",
@@ -2108,11 +4523,26 @@
     "categoryy": "BLUE",
     "size": 3.83609001895282,
     "color": "#18a1cd",
-    "byCity": {
-      "New York": 0.3,
-      "California": 0.2,
-      "Texas": 0.5
-    }
+    "cities": [
+      {
+        "name": "New York",
+        "size": 0.3,
+        "x": 0.7,
+        "y": 0.8
+      },
+      {
+        "name": "California",
+        "size": 0.2,
+        "x": 0.6,
+        "y": 0.4
+      },
+      {
+        "name": "Texas",
+        "size": 0.5,
+        "x": 0.3,
+        "y": 0.5
+      }
+    ]
   },
   {
     "name": "Timor-Leste",
@@ -2121,11 +4551,26 @@
     "categoryy": "RED",
     "size": 0.479460533259382,
     "color": "#c71e1d",
-    "byCity": {
-      "New York": 0.3,
-      "California": 0.2,
-      "Texas": 0.5
-    }
+    "cities": [
+      {
+        "name": "New York",
+        "size": 0.3,
+        "x": 0.7,
+        "y": 0.8
+      },
+      {
+        "name": "California",
+        "size": 0.2,
+        "x": 0.6,
+        "y": 0.4
+      },
+      {
+        "name": "Texas",
+        "size": 0.5,
+        "x": 0.3,
+        "y": 0.5
+      }
+    ]
   },
   {
     "name": "Togo",
@@ -2134,11 +4579,26 @@
     "categoryy": "RED",
     "size": 0.29323120707198,
     "color": "#c71e1d",
-    "byCity": {
-      "New York": 0.3,
-      "California": 0.2,
-      "Texas": 0.5
-    }
+    "cities": [
+      {
+        "name": "New York",
+        "size": 0.3,
+        "x": 0.7,
+        "y": 0.8
+      },
+      {
+        "name": "California",
+        "size": 0.2,
+        "x": 0.6,
+        "y": 0.4
+      },
+      {
+        "name": "Texas",
+        "size": 0.5,
+        "x": 0.3,
+        "y": 0.5
+      }
+    ]
   },
   {
     "name": "Tonga",
@@ -2147,11 +4607,26 @@
     "categoryy": "BLUE",
     "size": 1.53114440054471,
     "color": "#18a1cd",
-    "byCity": {
-      "New York": 0.3,
-      "California": 0.2,
-      "Texas": 0.5
-    }
+    "cities": [
+      {
+        "name": "New York",
+        "size": 0.3,
+        "x": 0.7,
+        "y": 0.8
+      },
+      {
+        "name": "California",
+        "size": 0.2,
+        "x": 0.6,
+        "y": 0.4
+      },
+      {
+        "name": "Texas",
+        "size": 0.5,
+        "x": 0.3,
+        "y": 0.5
+      }
+    ]
   },
   {
     "name": "Trinidad and Tobago",
@@ -2161,11 +4636,26 @@
     "size": 12.3228548692176,
     "color": "#fa8c00",
     "annotation": "left",
-    "byCity": {
-      "New York": 0.3,
-      "California": 0.2,
-      "Texas": 0.5
-    }
+    "cities": [
+      {
+        "name": "New York",
+        "size": 0.3,
+        "x": 0.7,
+        "y": 0.8
+      },
+      {
+        "name": "California",
+        "size": 0.2,
+        "x": 0.6,
+        "y": 0.4
+      },
+      {
+        "name": "Texas",
+        "size": 0.5,
+        "x": 0.3,
+        "y": 0.5
+      }
+    ]
   },
   {
     "name": "Tunisia",
@@ -2174,11 +4664,26 @@
     "categoryy": "GREEN",
     "size": 2.55756420759521,
     "color": "#00dca6",
-    "byCity": {
-      "New York": 0.3,
-      "California": 0.2,
-      "Texas": 0.5
-    }
+    "cities": [
+      {
+        "name": "New York",
+        "size": 0.3,
+        "x": 0.7,
+        "y": 0.8
+      },
+      {
+        "name": "California",
+        "size": 0.2,
+        "x": 0.6,
+        "y": 0.4
+      },
+      {
+        "name": "Texas",
+        "size": 0.5,
+        "x": 0.3,
+        "y": 0.5
+      }
+    ]
   },
   {
     "name": "Turkey",
@@ -2187,11 +4692,26 @@
     "categoryy": "GREEN",
     "size": 4.75658474979861,
     "color": "#00dca6",
-    "byCity": {
-      "New York": 0.3,
-      "California": 0.2,
-      "Texas": 0.5
-    }
+    "cities": [
+      {
+        "name": "New York",
+        "size": 0.3,
+        "x": 0.7,
+        "y": 0.8
+      },
+      {
+        "name": "California",
+        "size": 0.2,
+        "x": 0.6,
+        "y": 0.4
+      },
+      {
+        "name": "Texas",
+        "size": 0.5,
+        "x": 0.3,
+        "y": 0.5
+      }
+    ]
   },
   {
     "name": "Turkmenistan",
@@ -2200,11 +4720,26 @@
     "categoryy": "YELLOW",
     "size": 12.2633540880676,
     "color": "#fa8c00",
-    "byCity": {
-      "New York": 0.3,
-      "California": 0.2,
-      "Texas": 0.5
-    }
+    "cities": [
+      {
+        "name": "New York",
+        "size": 0.3,
+        "x": 0.7,
+        "y": 0.8
+      },
+      {
+        "name": "California",
+        "size": 0.2,
+        "x": 0.6,
+        "y": 0.4
+      },
+      {
+        "name": "Texas",
+        "size": 0.5,
+        "x": 0.3,
+        "y": 0.5
+      }
+    ]
   },
   {
     "name": "Uganda",
@@ -2213,11 +4748,26 @@
     "categoryy": "RED",
     "size": 0.132370788404111,
     "color": "#c71e1d",
-    "byCity": {
-      "New York": 0.3,
-      "California": 0.2,
-      "Texas": 0.5
-    }
+    "cities": [
+      {
+        "name": "New York",
+        "size": 0.3,
+        "x": 0.7,
+        "y": 0.8
+      },
+      {
+        "name": "California",
+        "size": 0.2,
+        "x": 0.6,
+        "y": 0.4
+      },
+      {
+        "name": "Texas",
+        "size": 0.5,
+        "x": 0.3,
+        "y": 0.5
+      }
+    ]
   },
   {
     "name": "Ukraine",
@@ -2226,11 +4776,26 @@
     "categoryy": "GREEN",
     "size": 3.93658353086744,
     "color": "#00dca6",
-    "byCity": {
-      "New York": 0.3,
-      "California": 0.2,
-      "Texas": 0.5
-    }
+    "cities": [
+      {
+        "name": "New York",
+        "size": 0.3,
+        "x": 0.7,
+        "y": 0.8
+      },
+      {
+        "name": "California",
+        "size": 0.2,
+        "x": 0.6,
+        "y": 0.4
+      },
+      {
+        "name": "Texas",
+        "size": 0.5,
+        "x": 0.3,
+        "y": 0.5
+      }
+    ]
   },
   {
     "name": "United Arab Emirates",
@@ -2239,11 +4804,26 @@
     "categoryy": "GREEN",
     "size": 19.3295632814806,
     "color": "#00dca6",
-    "byCity": {
-      "New York": 0.3,
-      "California": 0.2,
-      "Texas": 0.5
-    }
+    "cities": [
+      {
+        "name": "New York",
+        "size": 0.3,
+        "x": 0.7,
+        "y": 0.8
+      },
+      {
+        "name": "California",
+        "size": 0.2,
+        "x": 0.6,
+        "y": 0.4
+      },
+      {
+        "name": "Texas",
+        "size": 0.5,
+        "x": 0.3,
+        "y": 0.5
+      }
+    ]
   },
   {
     "name": "United Kingdom",
@@ -2252,11 +4832,26 @@
     "categoryy": "GREEN",
     "size": 5.22051448799294,
     "color": "#00dca6",
-    "byCity": {
-      "New York": 0.3,
-      "California": 0.2,
-      "Texas": 0.5
-    }
+    "cities": [
+      {
+        "name": "New York",
+        "size": 0.3,
+        "x": 0.7,
+        "y": 0.8
+      },
+      {
+        "name": "California",
+        "size": 0.2,
+        "x": 0.6,
+        "y": 0.4
+      },
+      {
+        "name": "Texas",
+        "size": 0.5,
+        "x": 0.3,
+        "y": 0.5
+      }
+    ]
   },
   {
     "name": "U.S.",
@@ -2266,11 +4861,26 @@
     "size": 14.6734106066885,
     "color": "#00dca6",
     "annotation": "right",
-    "byCity": {
-      "New York": 0.3,
-      "California": 0.2,
-      "Texas": 0.5
-    }
+    "cities": [
+      {
+        "name": "New York",
+        "size": 0.3,
+        "x": 0.7,
+        "y": 0.8
+      },
+      {
+        "name": "California",
+        "size": 0.2,
+        "x": 0.6,
+        "y": 0.4
+      },
+      {
+        "name": "Texas",
+        "size": 0.5,
+        "x": 0.3,
+        "y": 0.5
+      }
+    ]
   },
   {
     "name": "Uruguay",
@@ -2279,11 +4889,26 @@
     "categoryy": "GREEN",
     "size": 1.87478454308499,
     "color": "#00dca6",
-    "byCity": {
-      "New York": 0.3,
-      "California": 0.2,
-      "Texas": 0.5
-    }
+    "cities": [
+      {
+        "name": "New York",
+        "size": 0.3,
+        "x": 0.7,
+        "y": 0.8
+      },
+      {
+        "name": "California",
+        "size": 0.2,
+        "x": 0.6,
+        "y": 0.4
+      },
+      {
+        "name": "Texas",
+        "size": 0.5,
+        "x": 0.3,
+        "y": 0.5
+      }
+    ]
   },
   {
     "name": "Uzbekistan",
@@ -2292,11 +4917,26 @@
     "categoryy": "YELLOW",
     "size": 3.47554445038462,
     "color": "#fa8c00",
-    "byCity": {
-      "New York": 0.3,
-      "California": 0.2,
-      "Texas": 0.5
-    }
+    "cities": [
+      {
+        "name": "New York",
+        "size": 0.3,
+        "x": 0.7,
+        "y": 0.8
+      },
+      {
+        "name": "California",
+        "size": 0.2,
+        "x": 0.6,
+        "y": 0.4
+      },
+      {
+        "name": "Texas",
+        "size": 0.5,
+        "x": 0.3,
+        "y": 0.5
+      }
+    ]
   },
   {
     "name": "Vanuatu",
@@ -2305,11 +4945,26 @@
     "categoryy": "RED",
     "size": 0.700275419810089,
     "color": "#c71e1d",
-    "byCity": {
-      "New York": 0.3,
-      "California": 0.2,
-      "Texas": 0.5
-    }
+    "cities": [
+      {
+        "name": "New York",
+        "size": 0.3,
+        "x": 0.7,
+        "y": 0.8
+      },
+      {
+        "name": "California",
+        "size": 0.2,
+        "x": 0.6,
+        "y": 0.4
+      },
+      {
+        "name": "Texas",
+        "size": 0.5,
+        "x": 0.3,
+        "y": 0.5
+      }
+    ]
   },
   {
     "name": "Venezuela",
@@ -2318,11 +4973,26 @@
     "categoryy": "YELLOW",
     "size": 3.93956620857458,
     "color": "#fa8c00",
-    "byCity": {
-      "New York": 0.3,
-      "California": 0.2,
-      "Texas": 0.5
-    }
+    "cities": [
+      {
+        "name": "New York",
+        "size": 0.3,
+        "x": 0.7,
+        "y": 0.8
+      },
+      {
+        "name": "California",
+        "size": 0.2,
+        "x": 0.6,
+        "y": 0.4
+      },
+      {
+        "name": "Texas",
+        "size": 0.5,
+        "x": 0.3,
+        "y": 0.5
+      }
+    ]
   },
   {
     "name": "Viet Nam",
@@ -2331,11 +5001,26 @@
     "categoryy": "BLUE",
     "size": 3.4883126360288,
     "color": "#18a1cd",
-    "byCity": {
-      "New York": 0.3,
-      "California": 0.2,
-      "Texas": 0.5
-    }
+    "cities": [
+      {
+        "name": "New York",
+        "size": 0.3,
+        "x": 0.7,
+        "y": 0.8
+      },
+      {
+        "name": "California",
+        "size": 0.2,
+        "x": 0.6,
+        "y": 0.4
+      },
+      {
+        "name": "Texas",
+        "size": 0.5,
+        "x": 0.3,
+        "y": 0.5
+      }
+    ]
   },
   {
     "name": "Yemen",
@@ -2344,11 +5029,26 @@
     "categoryy": "RED",
     "size": 0.380633360910495,
     "color": "#c71e1d",
-    "byCity": {
-      "New York": 0.3,
-      "California": 0.2,
-      "Texas": 0.5
-    }
+    "cities": [
+      {
+        "name": "New York",
+        "size": 0.3,
+        "x": 0.7,
+        "y": 0.8
+      },
+      {
+        "name": "California",
+        "size": 0.2,
+        "x": 0.6,
+        "y": 0.4
+      },
+      {
+        "name": "Texas",
+        "size": 0.5,
+        "x": 0.3,
+        "y": 0.5
+      }
+    ]
   },
   {
     "name": "Zambia",
@@ -2357,11 +5057,26 @@
     "categoryy": "RED",
     "size": 0.38071705091289,
     "color": "#c71e1d",
-    "byCity": {
-      "New York": 0.3,
-      "California": 0.2,
-      "Texas": 0.5
-    }
+    "cities": [
+      {
+        "name": "New York",
+        "size": 0.3,
+        "x": 0.7,
+        "y": 0.8
+      },
+      {
+        "name": "California",
+        "size": 0.2,
+        "x": 0.6,
+        "y": 0.4
+      },
+      {
+        "name": "Texas",
+        "size": 0.5,
+        "x": 0.3,
+        "y": 0.5
+      }
+    ]
   },
   {
     "name": "Zimbabwe",
@@ -2370,10 +5085,25 @@
     "categoryy": "RED",
     "size": 0.802978519634142,
     "color": "#c71e1d",
-    "byCity": {
-      "New York": 0.3,
-      "California": 0.2,
-      "Texas": 0.5
-    }
+    "cities": [
+      {
+        "name": "New York",
+        "size": 0.3,
+        "x": 0.7,
+        "y": 0.8
+      },
+      {
+        "name": "California",
+        "size": 0.2,
+        "x": 0.6,
+        "y": 0.4
+      },
+      {
+        "name": "Texas",
+        "size": 0.5,
+        "x": 0.3,
+        "y": 0.5
+      }
+    ]
   }
 ]

@@ -1,11 +1,12 @@
 import { PlotSquareProps } from "../types";
 
-export const PlotSquare = ({name, color, size, xPos, yPos, scale, setHoveredLabel, className}: PlotSquareProps) => {
+export const PlotSquare = 
+  ({name, color, size, xPos, yPos, scale, setHoveredLabel = (() => {}), className}: PlotSquareProps) => {
     return (
-      <g key={name}>
+      <g>
         <rect
-          x={xPos}
-          y={yPos}
+          x={xPos - size / 2}
+          y={yPos - size / 2}
           strokeWidth={1 / scale}
           fill={color}
           width={size}

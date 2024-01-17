@@ -1,5 +1,8 @@
+.annotationContainer {
+    pointer-events: none;
+}
 
-.hoveredLabel {
+.hoveredLabel, .annotationCircle + text {
     paint-order: stroke;
     stroke: white;
     stroke-linecap: butt;
@@ -7,7 +10,11 @@
     font-weight: 500;
 }
 
-.annotationRect {
-    stroke: black;
+.annotationRect, .annotationCircle {
+    stroke: rgba(0, 0, 0, 0.3);
     pointer-events: none;
+}
+
+.annotationCircle {
+    stroke: "black";
 }
