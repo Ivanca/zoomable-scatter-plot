@@ -15,7 +15,7 @@ function App() {
   }, []);
 
   return (
-    <ScatterPlot data={data} width={720} height={720} />
+    <ScatterPlot data={data} width={window.innerHeight} height={window.innerHeight} />
   );
 }
 

@@ -1,11 +1,25 @@
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useMemo, useRef, useState } from "react";
 import * as d3 from "d3";
-import { ScatterplotProps } from "../types";
+import { DataItem, ScatterplotProps } from "../types";
 import { Axes } from "../Axes";
 import styles from "./scatterplot.module.css";
 import { PlotSquare } from "./PlotSquare";
 import { Annotation } from "./Annotation";
 import { ZoomTransform } from "d3";
+
+const BRIGHTER = {
+  "#00dca6": "#33FFD9",
+  "#c71e1d": "#f76e6e",
+  "#fa8c00": "#ffbf6b",
+  "#18a1cd": "#7EFFFF"
+}
+
+const DARKER = {
+  "#00dca6": "#00b386",
+  "#c71e1d": "#9c1616",
+  "#fa8c00": "#cc7400",
+  "#18a1cd": "#137da0"
+}
 
 export const ScatterPlot = ({ width, height, data }: ScatterplotProps) => {
 
@@ -14,30 +28,42 @@ export const ScatterPlot = ({ width, height, data }: ScatterplotProps) => {
   const [hoveredLabel, setHoveredLabel] = useState("");
   const [transform, setTransform] = useState({ x: 0, y: 0, k: 1 } as ZoomTransform);
 
-  // Scales
-  const xScale = d3.scaleLinear().domain([0, 0.9]).range([0, width]);
-  const yScale = d3.scaleLinear().domain([0, 0.85]).range([height, 0]);
-  const sizeScale = d3.scaleSqrt().domain([0, 32]).range([3, 40]);
+  // Scales as refs for performance
+  const xScale = useMemo(() => d3.scaleLinear().domain([0, 0.9]).range([0, width]), [width]);
+  const yScale = useMemo(() => d3.scaleLinear().domain([0, 0.85]).range([height, 0]), [height]);
+  const sizeScale = useMemo(() => d3.scaleSqrt().domain([0, 32]).range([3, 40]), []);
 
   // Sort the data: bigger squares must appear at the bottom
-  const sortedData = data.sort((a, b) => b.size - a.size);
+  const [sortedData, setSortedData] = useState<DataItem[]>([]);
 
   useEffect(() => {
-    if (!svgRef.current) {
+    if (!svgRef.current || svgRef.current.classList.contains('zoomable')) {
       return;
     }
+    svgRef.current.classList.add('zoomable');
     const zoom = d3.zoom()
       .scaleExtent([1, 32])
       .on("zoom", (event) => {
         setTransform(event.transform);
       });
-
-    d3.select(svgRef.current).call(zoom as any);
+    // set initial transfor to center the plot:
+    const initialTransform = d3.zoomIdentity.translate(
+      window.innerWidth / 2 - width / 2,
+      window.innerHeight / 2 - height / 2
+    );
+    d3.select(svgRef.current)
+      .call(zoom.transform as any, initialTransform)
+      .call(zoom as any);
+    
   }, [svgRef]);
+
+  useEffect(() => {
+    setSortedData(data.sort((a, b) => b.size - a.size));
+  }, [data]);
 
   const squares = sortedData.map((data, i) => {
     return <PlotSquare
-      key={i}
+      key={'square-' + data.name}
       name={data.name}
       color={data.color}
       size={sizeScale(data.size)}
