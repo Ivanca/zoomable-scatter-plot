@@ -2,6 +2,8 @@
 
 Zoom in this scatter plot by using the mouse wheel or a pinch gesture, as you zoom more data becomes visible, and you can pan around by dragging the plot.
 
+https://github.com/Ivanca/zoomable-scatter-plot/assets/907138/0c44d117-76b1-4472-855b-a0e07358e394
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
