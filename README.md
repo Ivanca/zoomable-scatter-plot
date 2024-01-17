@@ -1,4 +1,6 @@
-# Getting Started with Create React App
+# Zoomable Scatter Plot
+
+Zoom in this scatter plot by using the mouse wheel or a pinch gesture, as you zoom more data becomes visible, and you can pan around by dragging the plot.
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
